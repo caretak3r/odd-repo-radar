@@ -1,11 +1,81 @@
 {
-  "generated_at": "2026-09-30T14:04:00Z",
-  "scan_id": "seed-quality-2026-09-30",
-  "source": "researched-high-signal",
-  "count": 32,
-  "before_filter": 60,
-  "note": "Curated PixelLeak-class admissions + media dumps; empty gitshot shells excluded",
+  "generated_at": "2026-09-30T18:26:43Z",
+  "scan_id": "scan-2026-09-30",
+  "source": "github-actions",
+  "count": 60,
+  "excluded_summary": {
+    "empty-gitshot-shell": 0,
+    "empty-repo": 12,
+    "low-signal": 2,
+    "other": 2,
+    "no-admission": 27
+  },
+  "candidates_considered": 133,
   "hits": [
+    {
+      "name": "AlwaysStacking/code-flux-gbp-media-2026-09-30",
+      "url": "https://github.com/AlwaysStacking/code-flux-gbp-media-2026-09-30",
+      "description": "Temporary public media host for Code-Flux Buffer GBP ideas (2026-09-30). Safe to delete after Dominic reviews.",
+      "created_at": "2026-09-30T17:33:36Z",
+      "stars": 0,
+      "reason": "Temporary public media host for Code-Flux Buffer GBP ideas (2026-09-30). Safe to delete after Dominic reviews.",
+      "matched": [
+        "safe-to-delete PR media"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-content:gbp",
+      "enrichment": {
+        "size_kb": 0,
+        "root_files": [
+          "README.md",
+          "gbp"
+        ],
+        "non_boilerplate": [
+          "gbp"
+        ],
+        "image_files_root": [],
+        "release_image_assets": 0,
+        "release_bytes": 0,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 2,
+        "admission": true
+      }
+    },
+    {
+      "name": "opamediaBH/opa-ig-media",
+      "url": "https://github.com/opamediaBH/opa-ig-media",
+      "description": "Temporary public host for OPA Behavioral Health Instagram media. Safe to delete after publishing.",
+      "created_at": "2026-09-27T03:44:54Z",
+      "stars": 0,
+      "reason": "Temporary public host for OPA Behavioral Health Instagram media. Safe to delete after publishing.",
+      "matched": [
+        "safe-to-delete PR media"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-content:reels,stories",
+      "enrichment": {
+        "size_kb": 10571,
+        "root_files": [
+          "README.md",
+          "reels",
+          "stories"
+        ],
+        "non_boilerplate": [
+          "reels",
+          "stories"
+        ],
+        "image_files_root": [],
+        "release_image_assets": 0,
+        "release_bytes": 0,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 5,
+        "admission": true
+      }
+    },
     {
       "name": "MaikP4A/pr-screenshots",
       "url": "https://github.com/MaikP4A/pr-screenshots",
@@ -18,7 +88,7 @@
         "for private-repo PR"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-images:1",
       "enrichment": {
@@ -51,7 +121,7 @@
         "anonymous-resolvable image host"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-content:assets,evidence",
       "enrichment": {
@@ -66,8 +136,8 @@
           "evidence"
         ],
         "image_files_root": [],
-        "release_image_assets": 0,
-        "release_bytes": 0,
+        "release_image_assets": 8,
+        "release_bytes": 1246080,
         "gitshot_release_assets": 0,
         "commit_page_count": 5,
         "admission": true
@@ -84,7 +154,7 @@
         "screenshots linked from private PR"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-content:herdr-ide,hide,modakbul-gongbang-hide",
       "enrichment": {
@@ -119,7 +189,7 @@
         "anonymous-resolvable image host"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-content:img",
       "enrichment": {
@@ -150,7 +220,7 @@
         "agent-factory evidence"
       ],
       "severity": "agent-assets",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-content:86bc3cpuv,round13,round14",
       "enrichment": {
@@ -185,7 +255,7 @@
         "temporary public host for PR"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-images:2",
       "enrichment": {
@@ -225,7 +295,7 @@
         "public evidence hosting"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-content:img",
       "enrichment": {
@@ -256,7 +326,7 @@
         "screenshots linked from private PR"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-content:completeness-reminder,copy-menu-and-section-visibility,vve-0631",
       "enrichment": {
@@ -291,7 +361,7 @@
         "public evidence hosting"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-images:31",
       "enrichment": {
@@ -366,7 +436,7 @@
         "pr-evidence name"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-content:prdct14867-1789700320,prdct14867-r7-1789742812",
       "enrichment": {
@@ -399,7 +469,7 @@
         "safe-to-delete PR media"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-images:4",
       "enrichment": {
@@ -452,7 +522,7 @@
         "anonymous-resolvable image host"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-content:img",
       "enrichment": {
@@ -465,8 +535,8 @@
           "img"
         ],
         "image_files_root": [],
-        "release_image_assets": 0,
-        "release_bytes": 0,
+        "release_image_assets": 1,
+        "release_bytes": 173785,
         "gitshot_release_assets": 0,
         "commit_page_count": 4,
         "admission": true
@@ -483,7 +553,7 @@
         "public evidence hosting"
       ],
       "severity": "agent-assets",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-content:prdct-14853,prdct14853",
       "enrichment": {
@@ -497,8 +567,8 @@
           "prdct14853"
         ],
         "image_files_root": [],
-        "release_image_assets": 0,
-        "release_bytes": 0,
+        "release_image_assets": 3,
+        "release_bytes": 146946,
         "gitshot_release_assets": 0,
         "commit_page_count": 5,
         "admission": true
@@ -515,7 +585,7 @@
         "public evidence hosting"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-content:img",
       "enrichment": {
@@ -546,7 +616,7 @@
         "safe-to-delete PR media"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-images:6",
       "enrichment": {
@@ -610,7 +680,7 @@
         "agent-factory evidence"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-content:86bbyzzf0,PRDCT-14963,prdct-14865-1789663352,prdct-14963",
       "enrichment": {
@@ -629,8 +699,8 @@
           "prdct-14963"
         ],
         "image_files_root": [],
-        "release_image_assets": 0,
-        "release_bytes": 0,
+        "release_image_assets": 6,
+        "release_bytes": 1179694,
         "gitshot_release_assets": 0,
         "commit_page_count": 5,
         "admission": true
@@ -647,7 +717,7 @@
         "public evidence hosting"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-content:prdct13310",
       "enrichment": {
@@ -678,7 +748,7 @@
         "public evidence hosting"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-content:prdct14662",
       "enrichment": {
@@ -691,8 +761,8 @@
           "prdct14662"
         ],
         "image_files_root": [],
-        "release_image_assets": 0,
-        "release_bytes": 0,
+        "release_image_assets": 6,
+        "release_bytes": 736304,
         "gitshot_release_assets": 0,
         "commit_page_count": 5,
         "admission": true
@@ -709,7 +779,7 @@
         "anonymous-resolvable image host"
       ],
       "severity": "agent-assets",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-content:PRDCT-14267",
       "enrichment": {
@@ -740,7 +810,7 @@
         "agent-factory evidence"
       ],
       "severity": "agent-assets",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-content:img",
       "enrichment": {
@@ -771,7 +841,7 @@
         "anonymous-resolvable image host"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-images:4",
       "enrichment": {
@@ -812,7 +882,7 @@
         "public evidence hosting"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-content:img,r11,r15,r16",
       "enrichment": {
@@ -847,8 +917,8 @@
           "txt"
         ],
         "image_files_root": [],
-        "release_image_assets": 0,
-        "release_bytes": 0,
+        "release_image_assets": 12,
+        "release_bytes": 1585342,
         "gitshot_release_assets": 0,
         "commit_page_count": 5,
         "admission": true
@@ -866,7 +936,7 @@
         "public evidence hosting"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-content:img",
       "enrichment": {
@@ -879,8 +949,8 @@
           "img"
         ],
         "image_files_root": [],
-        "release_image_assets": 0,
-        "release_bytes": 0,
+        "release_image_assets": 2,
+        "release_bytes": 1557501,
         "gitshot_release_assets": 0,
         "commit_page_count": 5,
         "admission": true
@@ -898,7 +968,7 @@
         "pr-evidence name"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-content:prdct-14216",
       "enrichment": {
@@ -918,6 +988,246 @@
       }
     },
     {
+      "name": "onyx-coder-agent/onyx-eval-evidence",
+      "url": "https://github.com/onyx-coder-agent/onyx-eval-evidence",
+      "description": "Public evidence hosting for eval PR screenshots",
+      "created_at": "2026-09-11T08:50:29Z",
+      "stars": 0,
+      "reason": "Public evidence hosting for eval PR screenshots",
+      "matched": [
+        "public evidence hosting"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-content:pr-13451-1789426703,pr-13451-relabel,pr-13451-round5,pr-13451-round6",
+      "enrichment": {
+        "size_kb": 20577,
+        "root_files": [
+          "README.md",
+          "pr-13451-1789426703",
+          "pr-13451-relabel",
+          "pr-13451-round5",
+          "pr-13451-round6",
+          "pr-13451-round7",
+          "pr-13451-round8",
+          "prdct-14215",
+          "prdct14935-1789760257",
+          "prdct14935-round2-1790091377",
+          "prdct14935-round3-emptystate-1790100393",
+          "test"
+        ],
+        "non_boilerplate": [
+          "pr-13451-1789426703",
+          "pr-13451-relabel",
+          "pr-13451-round5",
+          "pr-13451-round6",
+          "pr-13451-round7",
+          "pr-13451-round8",
+          "prdct-14215",
+          "prdct14935-1789760257",
+          "prdct14935-round2-1790091377",
+          "prdct14935-round3-emptystate-1790100393",
+          "test"
+        ],
+        "image_files_root": [],
+        "release_image_assets": 10,
+        "release_bytes": 846231,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 5,
+        "admission": true
+      }
+    },
+    {
+      "name": "ozl-netizen/factory-evidence-prdct-14213",
+      "url": "https://github.com/ozl-netizen/factory-evidence-prdct-14213",
+      "description": "Public evidence host for PRDCT-14213 factory run (dev-stack fixture screenshots)",
+      "created_at": "2026-09-11T00:37:37Z",
+      "stars": 0,
+      "reason": "Public evidence host for PRDCT-14213 factory run (dev-stack fixture screenshots)",
+      "matched": [
+        "public evidence hosting"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-content:img",
+      "enrichment": {
+        "size_kb": 1333,
+        "root_files": [
+          "README.md",
+          "img"
+        ],
+        "non_boilerplate": [
+          "img"
+        ],
+        "image_files_root": [],
+        "release_image_assets": 0,
+        "release_bytes": 0,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 1,
+        "admission": true
+      }
+    },
+    {
+      "name": "guym-onyx/onyx-agent-evidence",
+      "url": "https://github.com/guym-onyx/onyx-agent-evidence",
+      "description": "Public evidence hosting for agent-factory PR screenshots",
+      "created_at": "2026-09-08T19:24:51Z",
+      "stars": 0,
+      "reason": "Public evidence hosting for agent-factory PR screenshots",
+      "matched": [
+        "public evidence hosting",
+        "agent-factory evidence"
+      ],
+      "severity": "agent-assets",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-content:img",
+      "enrichment": {
+        "size_kb": 1315,
+        "root_files": [
+          "README.md",
+          "img"
+        ],
+        "non_boilerplate": [
+          "img"
+        ],
+        "image_files_root": [],
+        "release_image_assets": 13,
+        "release_bytes": 1471073,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 2,
+        "admission": true
+      }
+    },
+    {
+      "name": "maybo65/onyx-agent-evidence",
+      "url": "https://github.com/maybo65/onyx-agent-evidence",
+      "description": "Public host for agent-factory PR evidence images (anonymous CDN).",
+      "created_at": "2026-09-08T11:49:38Z",
+      "stars": 0,
+      "reason": "Public host for agent-factory PR evidence images (anonymous CDN).",
+      "matched": [
+        "agent-factory evidence"
+      ],
+      "severity": "agent-assets",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-content:img,prdct-14232-1789345973,prdct-14232-c16-openai-lane-1790058392,prdct-14232-c16-renders-1789631355",
+      "enrichment": {
+        "size_kb": 100976,
+        "root_files": [
+          "README.md",
+          "img",
+          "prdct-14232-1789345973",
+          "prdct-14232-c16-openai-lane-1790058392",
+          "prdct-14232-c16-renders-1789631355",
+          "prdct-14237-1789575075",
+          "prdct-14941-1789775142",
+          "prdct14295"
+        ],
+        "non_boilerplate": [
+          "img",
+          "prdct-14232-1789345973",
+          "prdct-14232-c16-openai-lane-1790058392",
+          "prdct-14232-c16-renders-1789631355",
+          "prdct-14237-1789575075",
+          "prdct-14941-1789775142",
+          "prdct14295"
+        ],
+        "image_files_root": [],
+        "release_image_assets": 3,
+        "release_bytes": 323359,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 5,
+        "admission": true
+      }
+    },
+    {
+      "name": "AvalancheHQ/cod-3281-e2e-20260907-forkbase",
+      "url": "https://github.com/AvalancheHQ/cod-3281-e2e-20260907-forkbase",
+      "description": "[TTL: 2026-09-14] COD-3281 PR #2865 E2E on Armada: user-fork PR push. Safe to delete after TTL.",
+      "created_at": "2026-09-07T14:01:36Z",
+      "stars": 0,
+      "reason": "[TTL: 2026-09-14] COD-3281 PR #2865 E2E on Armada: user-fork PR push. Safe to delete after TTL.",
+      "matched": [
+        "safe-to-delete PR media"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-content:bench,pyproject.toml,src,tests",
+      "enrichment": {
+        "size_kb": 17,
+        "root_files": [
+          ".github",
+          ".gitignore",
+          ".python-version",
+          "README.md",
+          "bench",
+          "pyproject.toml",
+          "src",
+          "tests",
+          "uv.lock"
+        ],
+        "non_boilerplate": [
+          "bench",
+          "pyproject.toml",
+          "src",
+          "tests",
+          "uv.lock"
+        ],
+        "image_files_root": [],
+        "release_image_assets": 0,
+        "release_bytes": 0,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 4,
+        "admission": true
+      }
+    },
+    {
+      "name": "pixelatedhacker/pr-evidence",
+      "url": "https://github.com/pixelatedhacker/pr-evidence",
+      "description": "PR screenshot evidence uploads",
+      "created_at": "2026-09-06T08:45:11Z",
+      "stars": 0,
+      "reason": "PR screenshot evidence uploads",
+      "matched": [
+        "pr-evidence name"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-images:4",
+      "enrichment": {
+        "size_kb": 3562,
+        "root_files": [
+          "dashboard-page.png",
+          "dashboard-running.png",
+          "schedule-create-dialog.png",
+          "schedules-page.png"
+        ],
+        "non_boilerplate": [
+          "dashboard-page.png",
+          "dashboard-running.png",
+          "schedule-create-dialog.png",
+          "schedules-page.png"
+        ],
+        "image_files_root": [
+          "dashboard-page.png",
+          "dashboard-running.png",
+          "schedule-create-dialog.png",
+          "schedules-page.png"
+        ],
+        "release_image_assets": 0,
+        "release_bytes": 0,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 1,
+        "admission": false
+      }
+    },
+    {
       "name": "Raemon/pr-screenshots",
       "url": "https://github.com/Raemon/pr-screenshots",
       "description": "Public host for PR screenshots so they render on humanintheloop.reviews and in private-repo PRs",
@@ -928,7 +1238,7 @@
         "pr-screenshots name"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-content:ForumMagnum,Rogue-Sokoban,huggingface-musical,huggingface-wtf",
       "enrichment": {
@@ -975,7 +1285,7 @@
         "temporary public host for PR"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-images:6",
       "enrichment": {
@@ -1014,6 +1324,151 @@
       }
     },
     {
+      "name": "zwarunek/pr-assets",
+      "url": "https://github.com/zwarunek/pr-assets",
+      "description": "Ephemeral PR screenshot hosting",
+      "created_at": "2026-08-28T04:41:36Z",
+      "stars": 0,
+      "reason": "Ephemeral PR screenshot hosting",
+      "matched": [
+        "ephemeral PR screenshot host"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-content:dms-10242,dms-10805,dms-10887,dms-10892",
+      "enrichment": {
+        "size_kb": 8106,
+        "root_files": [
+          "README.md",
+          "dms-10242",
+          "dms-10805",
+          "dms-10887",
+          "dms-10892",
+          "dms-10894",
+          "dms-10906",
+          "x-web"
+        ],
+        "non_boilerplate": [
+          "dms-10242",
+          "dms-10805",
+          "dms-10887",
+          "dms-10892",
+          "dms-10894",
+          "dms-10906",
+          "x-web"
+        ],
+        "image_files_root": [],
+        "release_image_assets": 0,
+        "release_bytes": 0,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 5,
+        "admission": true
+      }
+    },
+    {
+      "name": "ytw418/pr-assets",
+      "url": "https://github.com/ytw418/pr-assets",
+      "description": "PR screenshot assets (agent-uploaded)",
+      "created_at": "2026-08-25T05:04:49Z",
+      "stars": 0,
+      "reason": "PR screenshot assets (agent-uploaded)",
+      "matched": [
+        "agent-uploaded assets"
+      ],
+      "severity": "agent-assets",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-content:allibee-frontend,bredy_app",
+      "enrichment": {
+        "size_kb": 27790,
+        "root_files": [
+          "allibee-frontend",
+          "bredy_app"
+        ],
+        "non_boilerplate": [
+          "allibee-frontend",
+          "bredy_app"
+        ],
+        "image_files_root": [],
+        "release_image_assets": 0,
+        "release_bytes": 0,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 5,
+        "admission": true
+      }
+    },
+    {
+      "name": "azvaliev/valiev-mobile-preview",
+      "url": "https://github.com/azvaliev/valiev-mobile-preview",
+      "description": "Temporary mobile-layout preview for valiev.dev PR #1. Safe to delete after review.",
+      "created_at": "2026-08-21T12:51:18Z",
+      "stars": 0,
+      "reason": "Temporary mobile-layout preview for valiev.dev PR #1. Safe to delete after review.",
+      "matched": [
+        "safe-to-delete PR media"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-content:app.css,index.html,vercel.json",
+      "enrichment": {
+        "size_kb": 18,
+        "root_files": [
+          "README.md",
+          "app.css",
+          "index.html",
+          "vercel.json"
+        ],
+        "non_boilerplate": [
+          "app.css",
+          "index.html",
+          "vercel.json"
+        ],
+        "image_files_root": [],
+        "release_image_assets": 0,
+        "release_bytes": 0,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 5,
+        "admission": true
+      }
+    },
+    {
+      "name": "joncc03/pr-827-page-indicator-visuals",
+      "url": "https://github.com/joncc03/pr-827-page-indicator-visuals",
+      "description": "Temporary public host for PR 827 page-indicator review stills/GIFs. Safe to delete after review.",
+      "created_at": "2026-08-19T23:35:39Z",
+      "stars": 0,
+      "reason": "Temporary public host for PR 827 page-indicator review stills/GIFs. Safe to delete after review.",
+      "matched": [
+        "temporary public PR hosting",
+        "temporary public host for PR",
+        "safe-to-delete PR media"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-content:media,payloads",
+      "enrichment": {
+        "size_kb": 1,
+        "root_files": [
+          "README.md",
+          "media",
+          "payloads"
+        ],
+        "non_boilerplate": [
+          "media",
+          "payloads"
+        ],
+        "image_files_root": [],
+        "release_image_assets": 0,
+        "release_bytes": 0,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 3,
+        "admission": true
+      }
+    },
+    {
       "name": "joshbreyes/pr-1780-mobile-search-screenshots",
       "url": "https://github.com/joshbreyes/pr-1780-mobile-search-screenshots",
       "description": "Public screenshot host for wags-hq/wags PR 1780 mobile search UI. Safe to delete after the PR is reviewed.",
@@ -1024,7 +1479,7 @@
         "safe-to-delete PR media"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-images:15",
       "enrichment": {
@@ -1077,6 +1532,148 @@
           "mobile_search_spacing_cleared_still_in_overlay.png",
           "mobile_search_spacing_empty_focused_field_crop.png"
         ],
+        "release_image_assets": 15,
+        "release_bytes": 3450272,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 5,
+        "admission": true
+      }
+    },
+    {
+      "name": "kylin1zhang/design-director-judge-demo",
+      "url": "https://github.com/kylin1zhang/design-director-judge-demo",
+      "description": "Temporary public demo of DesignDirector.AI. Safe to delete after review.",
+      "created_at": "2026-08-14T02:03:19Z",
+      "stars": 0,
+      "reason": "Temporary public demo of DesignDirector.AI. Safe to delete after review.",
+      "matched": [
+        "safe-to-delete PR media"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-content:404.html,assets,chatgpt-icon.svg,claude-icon.svg",
+      "enrichment": {
+        "size_kb": 759,
+        "root_files": [
+          ".nojekyll",
+          "404.html",
+          "README.md",
+          "assets",
+          "chatgpt-icon.svg",
+          "claude-icon.svg",
+          "favicon.svg",
+          "gemini-icon.svg",
+          "index.html",
+          "qwen-icon.svg",
+          "vite.svg"
+        ],
+        "non_boilerplate": [
+          "404.html",
+          "assets",
+          "chatgpt-icon.svg",
+          "claude-icon.svg",
+          "favicon.svg",
+          "gemini-icon.svg",
+          "index.html",
+          "qwen-icon.svg",
+          "vite.svg"
+        ],
+        "image_files_root": [],
+        "release_image_assets": 0,
+        "release_bytes": 0,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 2,
+        "admission": true
+      }
+    },
+    {
+      "name": "leorez-onyx/onyx-agent-evidence",
+      "url": "https://github.com/leorez-onyx/onyx-agent-evidence",
+      "description": "Public asset host for agent-factory PR evidence (synthetic test-UI screenshots)",
+      "created_at": "2026-08-13T22:41:54Z",
+      "stars": 0,
+      "reason": "Public asset host for agent-factory PR evidence (synthetic test-UI screenshots)",
+      "matched": [
+        "agent-factory evidence"
+      ],
+      "severity": "agent-assets",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-content:prdct-11466",
+      "enrichment": {
+        "size_kb": 32797,
+        "root_files": [
+          "README.md",
+          "prdct-11466"
+        ],
+        "non_boilerplate": [
+          "prdct-11466"
+        ],
+        "image_files_root": [],
+        "release_image_assets": 0,
+        "release_bytes": 0,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 5,
+        "admission": true
+      }
+    },
+    {
+      "name": "RavivGuy/onyx-eval-evidence",
+      "url": "https://github.com/RavivGuy/onyx-eval-evidence",
+      "description": "Public evidence hosting for Onyx eval PRs (anonymous image embeds)",
+      "created_at": "2026-08-10T20:32:12Z",
+      "stars": 0,
+      "reason": "Public evidence hosting for Onyx eval PRs (anonymous image embeds)",
+      "matched": [
+        "anonymous image embeds",
+        "public evidence hosting"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-content:img",
+      "enrichment": {
+        "size_kb": 1544,
+        "root_files": [
+          "README.md",
+          "img"
+        ],
+        "non_boilerplate": [
+          "img"
+        ],
+        "image_files_root": [],
+        "release_image_assets": 6,
+        "release_bytes": 1613255,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 5,
+        "admission": true
+      }
+    },
+    {
+      "name": "prjctlphbt/orbitr-cro-loop-20260809-1718",
+      "url": "https://github.com/prjctlphbt/orbitr-cro-loop-20260809-1718",
+      "description": "Disposable owner-isolated Orbitr readiness fixture. Safe to delete after verification.",
+      "created_at": "2026-08-09T17:17:02Z",
+      "stars": 0,
+      "reason": "Disposable owner-isolated Orbitr readiness fixture. Safe to delete after verification.",
+      "matched": [
+        "safe-to-delete PR media"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-content:index.html",
+      "enrichment": {
+        "size_kb": 4,
+        "root_files": [
+          "README.md",
+          "index.html"
+        ],
+        "non_boilerplate": [
+          "index.html"
+        ],
+        "image_files_root": [],
         "release_image_assets": 0,
         "release_bytes": 0,
         "gitshot_release_assets": 0,
@@ -1095,7 +1692,7 @@
         "ephemeral PR screenshot host"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-images:2",
       "enrichment": {
@@ -1120,6 +1717,337 @@
       }
     },
     {
+      "name": "RavivGuy/agent-factory-evidence",
+      "url": "https://github.com/RavivGuy/agent-factory-evidence",
+      "description": "Public host for agent-factory PR evidence images (eval artifacts)",
+      "created_at": "2026-07-30T13:41:02Z",
+      "stars": 0,
+      "reason": "Public host for agent-factory PR evidence images (eval artifacts)",
+      "matched": [
+        "agent-factory evidence"
+      ],
+      "severity": "agent-assets",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-content:86bc196cw,prdct6982",
+      "enrichment": {
+        "size_kb": 13370,
+        "root_files": [
+          "86bc196cw",
+          "README.md",
+          "prdct6982"
+        ],
+        "non_boilerplate": [
+          "86bc196cw",
+          "prdct6982"
+        ],
+        "image_files_root": [],
+        "release_image_assets": 16,
+        "release_bytes": 1889188,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 5,
+        "admission": true
+      }
+    },
+    {
+      "name": "cjones-blvd/bui-table-truncation-demo",
+      "url": "https://github.com/cjones-blvd/bui-table-truncation-demo",
+      "description": "Throwaway: Products table truncation-pattern comparison for design review (COM-7257). Safe to delete after the decision.",
+      "created_at": "2026-07-21T17:58:16Z",
+      "stars": 0,
+      "reason": "Throwaway: Products table truncation-pattern comparison for design review (COM-7257). Safe to delete after the decision.",
+      "matched": [
+        "safe-to-delete PR media"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-content:1280.4d6bbcc6.iframe.bundle.js,1446.02038c54.iframe.bundle.js,1446.02038c54.iframe.bundle.js.LICENSE.txt,1446.02038c54.iframe.bundle.js.map",
+      "enrichment": {
+        "size_kb": 4395,
+        "root_files": [
+          ".nojekyll",
+          "1280.4d6bbcc6.iframe.bundle.js",
+          "1446.02038c54.iframe.bundle.js",
+          "1446.02038c54.iframe.bundle.js.LICENSE.txt",
+          "1446.02038c54.iframe.bundle.js.map",
+          "1471.a6a124d0.iframe.bundle.js",
+          "1471.a6a124d0.iframe.bundle.js.map",
+          "1603.a6a91195.iframe.bundle.js",
+          "1624.fee04e55.iframe.bundle.js",
+          "1749.ca45a0b7.iframe.bundle.js",
+          "183.0d1057b6.iframe.bundle.js",
+          "189.600d8c03.iframe.bundle.js",
+          "189.600d8c03.iframe.bundle.js.map",
+          "1959.0adef074.iframe.bundle.js",
+          "2.8bbfb13b.iframe.bundle.js",
+          "2.8bbfb13b.iframe.bundle.js.map",
+          "2071.a7cdd0ab.iframe.bundle.js",
+          "2144.44f5ce6f.iframe.bundle.js",
+          "2144.44f5ce6f.iframe.bundle.js.map",
+          "2239.694524e8.iframe.bundle.js"
+        ],
+        "non_boilerplate": [
+          "1280.4d6bbcc6.iframe.bundle.js",
+          "1446.02038c54.iframe.bundle.js",
+          "1446.02038c54.iframe.bundle.js.LICENSE.txt",
+          "1446.02038c54.iframe.bundle.js.map",
+          "1471.a6a124d0.iframe.bundle.js",
+          "1471.a6a124d0.iframe.bundle.js.map",
+          "1603.a6a91195.iframe.bundle.js",
+          "1624.fee04e55.iframe.bundle.js",
+          "1749.ca45a0b7.iframe.bundle.js",
+          "183.0d1057b6.iframe.bundle.js",
+          "189.600d8c03.iframe.bundle.js",
+          "189.600d8c03.iframe.bundle.js.map",
+          "1959.0adef074.iframe.bundle.js",
+          "2.8bbfb13b.iframe.bundle.js",
+          "2.8bbfb13b.iframe.bundle.js.map"
+        ],
+        "image_files_root": [],
+        "release_image_assets": 0,
+        "release_bytes": 0,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 5,
+        "admission": true
+      }
+    },
+    {
+      "name": "KelvinLighting/kelvin-test-assets",
+      "url": "https://github.com/KelvinLighting/kelvin-test-assets",
+      "description": "Asset store for Kelvin issue/PR screenshot embeds (agent-uploaded, immutable filenames)",
+      "created_at": "2026-07-19T23:54:57Z",
+      "stars": 0,
+      "reason": "Asset store for Kelvin issue/PR screenshot embeds (agent-uploaded, immutable filenames)",
+      "matched": [
+        "agent-uploaded assets"
+      ],
+      "severity": "agent-assets",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-content:guide,issues,legacy,requests",
+      "enrichment": {
+        "size_kb": 523785,
+        "root_files": [
+          "README.md",
+          "guide",
+          "issues",
+          "legacy",
+          "requests"
+        ],
+        "non_boilerplate": [
+          "guide",
+          "issues",
+          "legacy",
+          "requests"
+        ],
+        "image_files_root": [],
+        "release_image_assets": 0,
+        "release_bytes": 0,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 5,
+        "admission": true
+      }
+    },
+    {
+      "name": "talentsolutionsmyanmar-max/landing-demo-preview",
+      "url": "https://github.com/talentsolutionsmyanmar-max/landing-demo-preview",
+      "description": "Temporary preview for landing hero cluster + recruiter pathway demo (S318 revise). Safe to delete after review.",
+      "created_at": "2026-07-19T06:11:08Z",
+      "stars": 0,
+      "reason": "Temporary preview for landing hero cluster + recruiter pathway demo (S318 revise). Safe to delete after review.",
+      "matched": [
+        "safe-to-delete PR media"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-content:index.html",
+      "enrichment": {
+        "size_kb": 7,
+        "root_files": [
+          "README.md",
+          "index.html"
+        ],
+        "non_boilerplate": [
+          "index.html"
+        ],
+        "image_files_root": [],
+        "release_image_assets": 0,
+        "release_bytes": 0,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 2,
+        "admission": true
+      }
+    },
+    {
+      "name": "maybo65/onyx-factory-evidence",
+      "url": "https://github.com/maybo65/onyx-factory-evidence",
+      "description": "Public host for agent-factory PR evidence images",
+      "created_at": "2026-07-15T19:32:37Z",
+      "stars": 0,
+      "reason": "Public host for agent-factory PR evidence images",
+      "matched": [
+        "agent-factory evidence"
+      ],
+      "severity": "agent-assets",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-content:86bayex2f-1784166269,86bayex2f-at5-r7-1785318219,86bayex2f-at5-r8-shipped-1785325958,86bayex2f-at5-r9-1785327924",
+      "enrichment": {
+        "size_kb": 14521,
+        "root_files": [
+          "86bayex2f-1784166269",
+          "86bayex2f-at5-r7-1785318219",
+          "86bayex2f-at5-r8-shipped-1785325958",
+          "86bayex2f-at5-r9-1785327924",
+          "86bayex2f-at5-r9b-1785330676",
+          "86bayex2f-at5-r9f-1785332903",
+          "86bayex2f-at6-r11-1785342274",
+          "86bayex2f-preview-r4-1784217816",
+          "README.md",
+          "pr8914",
+          "pr8914r2",
+          "pr8979",
+          "prdct-8914",
+          "prdct8714",
+          "prdct8915"
+        ],
+        "non_boilerplate": [
+          "86bayex2f-1784166269",
+          "86bayex2f-at5-r7-1785318219",
+          "86bayex2f-at5-r8-shipped-1785325958",
+          "86bayex2f-at5-r9-1785327924",
+          "86bayex2f-at5-r9b-1785330676",
+          "86bayex2f-at5-r9f-1785332903",
+          "86bayex2f-at6-r11-1785342274",
+          "86bayex2f-preview-r4-1784217816",
+          "pr8914",
+          "pr8914r2",
+          "pr8979",
+          "prdct-8914",
+          "prdct8714",
+          "prdct8915"
+        ],
+        "image_files_root": [],
+        "release_image_assets": 3,
+        "release_bytes": 383137,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 5,
+        "admission": true
+      }
+    },
+    {
+      "name": "crtechdigital/drapers-airguns-images",
+      "url": "https://github.com/crtechdigital/drapers-airguns-images",
+      "description": "Temporary image host for Drapers Shopify migration \u2014 safe to delete after import",
+      "created_at": "2026-07-04T16:44:40Z",
+      "stars": 0,
+      "reason": "Temporary image host for Drapers Shopify migration \u2014 safe to delete after import",
+      "matched": [
+        "safe-to-delete PR media"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-images:517",
+      "enrichment": {
+        "size_kb": 38334,
+        "root_files": [
+          "1-8in-bsp-bonded-dowty-seal-washer-x5.jpg",
+          "3-piece-rifle-brush-set-in-blister-pack-177-4-5.jpg",
+          "3-piece-rifle-brush-set-in-blister-pack-22-223.jpg",
+          "5-litre-300-bar-bottle-with-hose-boot.jpg",
+          "7-litre-300-bar-bottle-with-hose-boot.jpg",
+          "abbey-degreasing-spray-fluid-150ml.jpg",
+          "abbey-gun-and-rifle-oil-125ml.jpg",
+          "abbey-gun-clean-125ml.jpg",
+          "abbey-gun-rifle-oil-aerosol.jpg",
+          "abbey-lt2-gun-grease-50ml.jpg",
+          "abbey-silicone-grease-20-ml-pot.jpg",
+          "abbey-silicone-gun-oil-35-aerosol-150ml.jpg",
+          "abbey-silicone-gun-oil-in-dropper-bottle-30ml.jpg",
+          "abbey-stock-finish.jpg",
+          "accumax-synthetic-black-22.jpg",
+          "air-arms-diabolo-field-16gr-5-52mm-22-x500.jpg",
+          "air-arms-diabolo-field-4-51mm-8-44gr-177.jpg",
+          "air-arms-diabolo-field-8-44gr-4-52mm-177-x500.jpg",
+          "air-arms-kymira-177-limited-edition.jpg",
+          "air-arms-male-fill-valve-pre-t-bar-type.jpg"
+        ],
+        "non_boilerplate": [
+          "1-8in-bsp-bonded-dowty-seal-washer-x5.jpg",
+          "3-piece-rifle-brush-set-in-blister-pack-177-4-5.jpg",
+          "3-piece-rifle-brush-set-in-blister-pack-22-223.jpg",
+          "5-litre-300-bar-bottle-with-hose-boot.jpg",
+          "7-litre-300-bar-bottle-with-hose-boot.jpg",
+          "abbey-degreasing-spray-fluid-150ml.jpg",
+          "abbey-gun-and-rifle-oil-125ml.jpg",
+          "abbey-gun-clean-125ml.jpg",
+          "abbey-gun-rifle-oil-aerosol.jpg",
+          "abbey-lt2-gun-grease-50ml.jpg",
+          "abbey-silicone-grease-20-ml-pot.jpg",
+          "abbey-silicone-gun-oil-35-aerosol-150ml.jpg",
+          "abbey-silicone-gun-oil-in-dropper-bottle-30ml.jpg",
+          "abbey-stock-finish.jpg",
+          "accumax-synthetic-black-22.jpg"
+        ],
+        "image_files_root": [
+          "1-8in-bsp-bonded-dowty-seal-washer-x5.jpg",
+          "3-piece-rifle-brush-set-in-blister-pack-177-4-5.jpg",
+          "3-piece-rifle-brush-set-in-blister-pack-22-223.jpg",
+          "5-litre-300-bar-bottle-with-hose-boot.jpg",
+          "7-litre-300-bar-bottle-with-hose-boot.jpg",
+          "abbey-degreasing-spray-fluid-150ml.jpg",
+          "abbey-gun-and-rifle-oil-125ml.jpg",
+          "abbey-gun-clean-125ml.jpg",
+          "abbey-gun-rifle-oil-aerosol.jpg",
+          "abbey-lt2-gun-grease-50ml.jpg"
+        ],
+        "release_image_assets": 0,
+        "release_bytes": 0,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 1,
+        "admission": true
+      }
+    },
+    {
+      "name": "22inchHubCaps/rogue-depot-photos",
+      "url": "https://github.com/22inchHubCaps/rogue-depot-photos",
+      "description": "Transient eBay listing photo host (safe to delete after publish)",
+      "created_at": "2026-06-29T04:02:42Z",
+      "stars": 0,
+      "reason": "Transient eBay listing photo host (safe to delete after publish)",
+      "matched": [
+        "safe-to-delete PR media"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-content:item1,item2,item4,snap",
+      "enrichment": {
+        "size_kb": 118137,
+        "root_files": [
+          "item1",
+          "item2",
+          "item4",
+          "snap"
+        ],
+        "non_boilerplate": [
+          "item1",
+          "item2",
+          "item4",
+          "snap"
+        ],
+        "image_files_root": [],
+        "release_image_assets": 0,
+        "release_bytes": 0,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 5,
+        "admission": true
+      }
+    },
+    {
       "name": "nikkidansey24/straia-impersonation-pr-assets",
       "url": "https://github.com/nikkidansey24/straia-impersonation-pr-assets",
       "description": "Disposable: inline screenshots for Straia-Inc/straia-core PR #875 (impersonation verification). Safe to delete after merge.",
@@ -1130,7 +2058,7 @@
         "safe-to-delete PR media"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-images:5",
       "enrichment": {
@@ -1165,6 +2093,35 @@
       }
     },
     {
+      "name": "ios-taipei/ai-review-trigger-test",
+      "url": "https://github.com/ios-taipei/ai-review-trigger-test",
+      "description": "Throwaway test for team-as-proxy reviewer mechanism. Safe to delete after.",
+      "created_at": "2026-05-30T04:12:48Z",
+      "stars": 0,
+      "reason": "Throwaway test for team-as-proxy reviewer mechanism. Safe to delete after.",
+      "matched": [
+        "safe-to-delete PR media"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "admission+content",
+      "enrichment": {
+        "size_kb": 8,
+        "root_files": [
+          ".github",
+          "README.md"
+        ],
+        "non_boilerplate": [],
+        "image_files_root": [],
+        "release_image_assets": 0,
+        "release_bytes": 0,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 5,
+        "admission": true
+      }
+    },
+    {
       "name": "tachibana2314/ai-archive-jp-pr-assets",
       "url": "https://github.com/tachibana2314/ai-archive-jp-pr-assets",
       "description": "PR review screenshots for the (private) ai-archive-jp repo. Safe to delete after merge.",
@@ -1175,7 +2132,7 @@
         "safe-to-delete PR media"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-images:5",
       "enrichment": {
@@ -1234,6 +2191,67 @@
       }
     },
     {
+      "name": "alphasixty1/mcprouter-test-motlo50u",
+      "url": "https://github.com/alphasixty1/mcprouter-test-motlo50u",
+      "description": "Temporary repo for mcp-router functional testing. Safe to delete after review.",
+      "created_at": "2026-05-06T05:17:27Z",
+      "stars": 0,
+      "reason": "Temporary repo for mcp-router functional testing. Safe to delete after review.",
+      "matched": [
+        "safe-to-delete PR media"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-content:tests",
+      "enrichment": {
+        "size_kb": 0,
+        "root_files": [
+          "tests"
+        ],
+        "non_boilerplate": [
+          "tests"
+        ],
+        "image_files_root": [],
+        "release_image_assets": 0,
+        "release_bytes": 0,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 2,
+        "admission": true
+      }
+    },
+    {
+      "name": "erwinrr/churchai-pr-assets",
+      "url": "https://github.com/erwinrr/churchai-pr-assets",
+      "description": "Public PR assets (screenshots/videos) for churchai PRs from cloud agents",
+      "created_at": "2026-05-04T04:26:55Z",
+      "stars": 0,
+      "reason": "Public PR assets (screenshots/videos) for churchai PRs from cloud agents",
+      "matched": [
+        "cloud-agent PR assets"
+      ],
+      "severity": "agent-assets",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-content:settings-tabs-fix",
+      "enrichment": {
+        "size_kb": 1829,
+        "root_files": [
+          "README.md",
+          "settings-tabs-fix"
+        ],
+        "non_boilerplate": [
+          "settings-tabs-fix"
+        ],
+        "image_files_root": [],
+        "release_image_assets": 0,
+        "release_bytes": 0,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 1,
+        "admission": true
+      }
+    },
+    {
       "name": "meunomeebero/curriculol-pr-assets",
       "url": "https://github.com/meunomeebero/curriculol-pr-assets",
       "description": "Public PR screenshot assets for curriculol (private repo)",
@@ -1244,7 +2262,7 @@
         "PR screenshot assets for named repo"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-content:pr-86",
       "enrichment": {
@@ -1264,6 +2282,121 @@
       }
     },
     {
+      "name": "AlexCheema/pr-screenshots",
+      "url": "https://github.com/AlexCheema/pr-screenshots",
+      "description": "Screenshots for PR comments",
+      "created_at": "2026-04-16T22:52:30Z",
+      "stars": 0,
+      "reason": "Screenshots for PR comments",
+      "matched": [
+        "pr-screenshots name"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-images:4",
+      "enrichment": {
+        "size_kb": 206,
+        "root_files": [
+          "pr-1895-after-chatform.png",
+          "pr-1895-after-modal.png",
+          "pr-1895-before-chatform.png",
+          "pr-1895-before-modal.png"
+        ],
+        "non_boilerplate": [
+          "pr-1895-after-chatform.png",
+          "pr-1895-after-modal.png",
+          "pr-1895-before-chatform.png",
+          "pr-1895-before-modal.png"
+        ],
+        "image_files_root": [
+          "pr-1895-after-chatform.png",
+          "pr-1895-after-modal.png",
+          "pr-1895-before-chatform.png",
+          "pr-1895-before-modal.png"
+        ],
+        "release_image_assets": 0,
+        "release_bytes": 0,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 1,
+        "admission": false
+      }
+    },
+    {
+      "name": "HectorQuinonesBetterment/pr-screenshots",
+      "url": "https://github.com/HectorQuinonesBetterment/pr-screenshots",
+      "description": "PR screenshot storage",
+      "created_at": "2026-03-30T14:50:32Z",
+      "stars": 0,
+      "reason": "PR screenshot storage",
+      "matched": [
+        "pr-screenshots name"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T18:26:43Z",
+      "source": "repo-search",
+      "quality": "tree-images:24",
+      "enrichment": {
+        "size_kb": 1253,
+        "root_files": [
+          "20260330_085524.png",
+          "20260330_085533.png",
+          "20260417_093839.png",
+          "README.md",
+          "ax-1793-ira-source-account.png",
+          "ax-1822-name-mismatch-20260813_144843.png",
+          "ax-1825-advisor-alpha-statement-import.png",
+          "ax-1853-after.png",
+          "ax-1853-before.png",
+          "ax-1905-after-v2.png",
+          "ax-1905-after.png",
+          "ax-1905-before-v2.png",
+          "ax-1905-before.png",
+          "ax1753_20260807_121004.png",
+          "ax1754_20260807_123657.png",
+          "ax1754_inline_20260807_125059.png",
+          "ax1823-story-edited.png",
+          "ax1823-story-extracted.png",
+          "ax1874-1865-full-transfer-4889f985ef9.png",
+          "ax1874-1865-full-transfer-7241f4a9992.png"
+        ],
+        "non_boilerplate": [
+          "20260330_085524.png",
+          "20260330_085533.png",
+          "20260417_093839.png",
+          "ax-1793-ira-source-account.png",
+          "ax-1822-name-mismatch-20260813_144843.png",
+          "ax-1825-advisor-alpha-statement-import.png",
+          "ax-1853-after.png",
+          "ax-1853-before.png",
+          "ax-1905-after-v2.png",
+          "ax-1905-after.png",
+          "ax-1905-before-v2.png",
+          "ax-1905-before.png",
+          "ax1753_20260807_121004.png",
+          "ax1754_20260807_123657.png",
+          "ax1754_inline_20260807_125059.png"
+        ],
+        "image_files_root": [
+          "20260330_085524.png",
+          "20260330_085533.png",
+          "20260417_093839.png",
+          "ax-1793-ira-source-account.png",
+          "ax-1822-name-mismatch-20260813_144843.png",
+          "ax-1825-advisor-alpha-statement-import.png",
+          "ax-1853-after.png",
+          "ax-1853-before.png",
+          "ax-1905-after-v2.png",
+          "ax-1905-after.png"
+        ],
+        "release_image_assets": 0,
+        "release_bytes": 0,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 5,
+        "admission": false
+      }
+    },
+    {
       "name": "jgive-dev-bot-segal/pr-screenshots",
       "url": "https://github.com/jgive-dev-bot-segal/pr-screenshots",
       "description": "PR screenshot assets for JgiveGit/jgive",
@@ -1274,7 +2407,7 @@
         "PR screenshot assets for named repo"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T13:58:49Z",
+      "first_seen": "2026-09-30T18:26:43Z",
       "source": "repo-search",
       "quality": "tree-images:5",
       "enrichment": {
@@ -1314,8 +2447,8 @@
           "transfers-batch-actions-pr7687-v2-1777894314.gif",
           "transfers-batch-actions-pr7687-v2-1777894314.mp4"
         ],
-        "release_image_assets": 0,
-        "release_bytes": 0,
+        "release_image_assets": 1,
+        "release_bytes": 198770,
         "gitshot_release_assets": 0,
         "commit_page_count": 5,
         "admission": true
