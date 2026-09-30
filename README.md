@@ -2,7 +2,7 @@
 
 Near-real-time radar for **odd / anomalous public GitHub repos** — the kind that showed up in [PixelLeak](https://www.glow.io/blogs/how-ai-agents-exposed-developer-screenshots-from-leading-tech-companies): personal accounts dumping screenshot assets so AI coding agents can attach images to private PR workflows.
 
-**Live dashboard:** https://caretak3r.github.io/odd-repo-radar/
+**Live dashboard:** https://caretak3r.github.io/odd-repo-radar/ (also https://silent.engineer/odd-repo-radar/ via custom domain)
 
 ## What this is
 
