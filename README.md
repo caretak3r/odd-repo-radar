@@ -6,12 +6,14 @@ Near-real-time radar for **odd / anomalous public GitHub repos** — the kind th
 
 ## What this is
 
-Not a feed of every new repo. A **high-signal** watchlist for patterns like:
+Not a feed of every new repo — and **not** empty `gitshot-images` shells. A **high-signal** watchlist for:
 
-- `gitshot` / `gitshot-images` / “Managed by gitshot”
-- `pr-assets`, `pr-screenshots`, `pr-evidence`, ephemeral/temporary PR image hosts
-- Agent-uploaded review images and cloud-agent PR asset dumps
-- Forks/tools that publish review screenshots to public GitHub
+- Descriptions that *admit* public hosting of screenshots for **private** PR review
+- `camo-renderable` / `anonymous-resolvable` image hosts (GitHub camo workaround)
+- Temporary/ephemeral / “safe to delete after merge” PR media dumps
+- Agent-factory / agent-uploaded evidence hosts
+- Commit/code footprints where agents create a public screenshot workaround
+- Empty README-only `gitshot-images` templates are **excluded** (quality gate)
 
 ## PixelLeak (seed finding)
 

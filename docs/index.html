@@ -29,15 +29,16 @@
     <section class="hero panel">
       <h2>What we watch for</h2>
       <p>
-        Not every new public repo — only <strong>high-signal anomalies</strong>: personal accounts spinning up
-        public image dumps so AI coding agents can attach screenshots to private PR workflows.
-        Seeded by the <em>PixelLeak</em> disclosure (13k+ internal screenshots from 343 orgs).
+        Not empty <code>gitshot-images</code> shells — only <strong>high-signal anomalies</strong>: public repos
+        that <em>admit</em> hosting screenshots for private PR review, agent-factory evidence dumps,
+        camo/anonymous-resolvable image hosts, and commit footprints where agents create public
+        screenshot workarounds. Seeded by <em>PixelLeak</em> (13k+ screenshots / 343 orgs).
       </p>
       <div class="stat-row">
         <div class="stat"><span class="n" id="stat-hits">0</span><span class="l">live hits</span></div>
         <div class="stat"><span class="n">13k+</span><span class="l">PixelLeak shots</span></div>
         <div class="stat"><span class="n">343</span><span class="l">orgs exposed</span></div>
-        <div class="stat"><span class="n">~⅓</span><span class="l">used gitshot</span></div>
+        <div class="stat"><span class="n">≠ empty</span><span class="l">quality gated</span></div>
       </div>
     </section>
 
@@ -48,11 +49,9 @@
           <input type="search" id="filter-q" placeholder="Filter name / reason…" />
           <select id="filter-sev">
             <option value="">All severity</option>
-            <option value="gitshot-host">gitshot-host</option>
             <option value="asset-dump">asset-dump</option>
             <option value="agent-assets">agent-assets</option>
             <option value="tool">tool</option>
-            <option value="gitshot-related">gitshot-related</option>
           </select>
         </div>
       </div>
@@ -79,13 +78,12 @@
       <h2>Detection heuristics</h2>
       <p class="lede">Prioritize signal over volume. These filters are encoded in the scanner Action.</p>
       <ul class="heuristic-list">
-        <li><code>name/desc</code> mentions: <em>gitshot, pr-assets, screenshots, demo-assets, agent-assets, before-after, ui-preview</em></li>
-        <li>Topics/tags including <code>_gitshot</code></li>
-        <li>New public repos that are mostly image/video assets (<code>png/jpg/webp/mp4</code>) with little/no code</li>
-        <li>Repos created minutes after a private PR workflow that reference screenshot hosting</li>
-        <li>Brand-new empty-ish repos that suddenly get dozens of image commits</li>
-        <li>Description patterns: <em>"assets for PR", "code review screenshots", "temporary image host", "Managed by gitshot", "Ephemeral PR screenshot"</em></li>
-        <li>Forks of <code>gitshot</code> or tools that upload review screenshots publicly</li>
+        <li><strong>Admission language</strong> in descriptions: <em>public screenshots for private-repo PRs</em>, <em>screenshots linked from private repo</em>, <em>camo-renderable</em>, <em>anonymous-resolvable</em>, <em>temporary/ephemeral public hosting</em>, <em>safe to delete after merge</em></li>
+        <li><strong>Agent footprints</strong>: <em>agent-factory</em>, <em>agent-uploaded</em>, <em>cloud agents</em> evidence hosts; commit messages about creating a public screenshot repo / orphan-branch workaround</li>
+        <li><strong>Code/skills</strong> that teach agents to upload PR screenshots to a public repo (attach-screenshot skills, Agents.md notes)</li>
+        <li><strong>Tree content</strong>: image/media files or PR-number folders (<code>pr-123/</code>, <code>screenshots/</code>) — not README-only</li>
+        <li><strong>Quality gate (excludes noise)</strong>: empty <code>gitshot-images</code> shells (size≈0, README only) are dropped even if a <code>_gitshot</code> release tag exists — those mass templates are not useful radar hits</li>
+        <li>Name patterns like <code>pr-assets</code>, <code>pr-screenshots</code>, <code>pr-evidence</code> only kept when the repo has real content</li>
       </ul>
     </section>
 
@@ -100,11 +98,11 @@
         <h2>How the scanner works</h2>
         <ol class="steps">
           <li>GitHub Action runs hourly (<code>cron: '14 * * * *'</code>) + on demand.</li>
-          <li>Queries GitHub Search API for high-signal name/description patterns (recent <code>created:&gt;</code> window).</li>
-          <li>Merges unique new hits into <code>docs/data/hits.json</code> (idempotent — no commit if unchanged).</li>
-          <li>This Pages site reads the JSON and renders the live table.</li>
+          <li>Searches repos + commits + code for PixelLeak-class admissions and agent footprints.</li>
+          <li>Quality-probes each candidate (tree files, size, releases) — drops empty gitshot shells.</li>
+          <li>Keeps admission-language / named media dumps only; writes <code>docs/data/hits.json</code> when changed.</li>
         </ol>
-        <p class="footnote">Rate-limited by Search API. Heuristics are intentionally narrow to avoid noise.</p>
+        <p class="footnote">Quality over quantity. Prefer ~20 real oddities over hundreds of empty templates.</p>
       </div>
     </section>
 
