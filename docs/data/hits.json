@@ -1,183 +1,164 @@
 {
-  "generated_at": "2026-09-30T12:16:35Z",
+  "generated_at": "2026-09-30T12:21:50Z",
   "scan_id": "seed-2026-09-30",
-  "source": "initial-manual-scan",
-  "count": 40,
+  "source": "initial-scan",
+  "count": 42,
   "hits": [
     {
-      "name": "vipulgupta2048/gitshot",
-      "url": "https://github.com/vipulgupta2048/gitshot",
-      "description": "Zero-config, agent-first CLI to upload images to issues, PRs, and comments. Screenshots on GitHub, now without a browser.",
-      "created_at": "2026-03-25T12:48:21Z",
-      "stars": 26,
-      "reason": "Primary gitshot tool \u2014 agent CLI that uploads PR screenshots to public GitHub",
-      "matched": [
-        "gitshot in:name",
-        "agent-first screenshot upload"
-      ],
-      "severity": "tool",
-      "first_seen": "2026-09-30T12:16:35Z"
-    },
-    {
-      "name": "steipete/pr-assets",
-      "url": "https://github.com/steipete/pr-assets",
-      "description": "Screenshots and artifacts referenced from PRs/issues",
-      "created_at": "2026-07-06T07:11:11Z",
-      "stars": 5,
-      "reason": "Public PR screenshot/artifact dump repo",
-      "matched": [
-        "pr-assets in:name",
-        "Screenshots referenced from PRs"
-      ],
-      "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
-    },
-    {
-      "name": "steipete/openclaw-pr-assets",
-      "url": "https://github.com/steipete/openclaw-pr-assets",
-      "description": "Proof assets (screenshots) for OpenClaw PRs; one release tag per PR",
-      "created_at": "2026-07-04T06:05:34Z",
-      "stars": 8,
-      "reason": "PR proof screenshots hosted publicly per-PR tags",
-      "matched": [
-        "PR assets screenshots",
-        "openclaw-pr-assets"
-      ],
-      "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
-    },
-    {
-      "name": "mmeinzer/gitshot-images",
-      "url": "https://github.com/mmeinzer/gitshot-images",
-      "description": "Image hosting for gitshot",
-      "created_at": "2026-04-01T22:32:33Z",
+      "name": "shinji1100/pr-assets",
+      "url": "https://github.com/shinji1100/pr-assets",
+      "description": "Screenshots for my pull requests",
+      "created_at": "2026-09-29T13:01:19Z",
       "stars": 0,
-      "reason": "gitshot-managed public image host",
+      "reason": "Screenshots for my pull requests",
       "matched": [
-        "gitshot-images",
-        "Image hosting for gitshot"
+        "pr-assets in:name created:>2026-06-02"
       ],
-      "severity": "gitshot-host",
-      "first_seen": "2026-09-30T12:16:35Z"
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T12:21:50Z"
     },
     {
-      "name": "refracta/gitshot-images",
-      "url": "https://github.com/refracta/gitshot-images",
+      "name": "MaikP4A/pr-screenshots",
+      "url": "https://github.com/MaikP4A/pr-screenshots",
+      "description": "Public screenshots for private-repo PR descriptions",
+      "created_at": "2026-09-24T11:17:58Z",
+      "stars": 0,
+      "reason": "Public screenshots for private-repo PR descriptions",
+      "matched": [
+        "pr-screenshots in:name created:>2026-06-02"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T12:21:50Z"
+    },
+    {
+      "name": "guym-onyx/agent-evidence-assets",
+      "url": "https://github.com/guym-onyx/agent-evidence-assets",
+      "description": "Public evidence asset hosting for agent PR screenshots",
+      "created_at": "2026-09-18T22:23:10Z",
+      "stars": 0,
+      "reason": "Public evidence asset hosting for agent PR screenshots",
+      "matched": [
+        "\"PR screenshots\" in:description created:>2026-06-02"
+      ],
+      "severity": "agent-assets",
+      "first_seen": "2026-09-30T12:21:50Z"
+    },
+    {
+      "name": "ozl-netizen/pr-evidence",
+      "url": "https://github.com/ozl-netizen/pr-evidence",
+      "description": "Public anonymous-resolvable host for PR evidence screenshots",
+      "created_at": "2026-09-18T02:58:41Z",
+      "stars": 0,
+      "reason": "Public anonymous-resolvable host for PR evidence screenshots",
+      "matched": [
+        "pr-evidence in:name created:>2026-06-02"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T12:21:50Z"
+    },
+    {
+      "name": "ozl-netizen/onyx-pr-evidence",
+      "url": "https://github.com/ozl-netizen/onyx-pr-evidence",
+      "description": "Public evidence host for PR screenshots (camo-renderable)",
+      "created_at": "2026-09-15T13:04:12Z",
+      "stars": 0,
+      "reason": "Public evidence host for PR screenshots (camo-renderable)",
+      "matched": [
+        "\"PR screenshots\" in:description created:>2026-06-02"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T12:21:50Z"
+    },
+    {
+      "name": "onyx-coder-agent/pr-evidence",
+      "url": "https://github.com/onyx-coder-agent/pr-evidence",
+      "description": "Public evidence host for agent PR screenshots (ephemeral, synthetic seed data only)",
+      "created_at": "2026-09-11T09:00:14Z",
+      "stars": 0,
+      "reason": "Public evidence host for agent PR screenshots (ephemeral, synthetic seed data only)",
+      "matched": [
+        "pr-evidence in:name created:>2026-06-02"
+      ],
+      "severity": "agent-assets",
+      "first_seen": "2026-09-30T12:21:50Z"
+    },
+    {
+      "name": "onyx-coder-agent/onyx-eval-evidence",
+      "url": "https://github.com/onyx-coder-agent/onyx-eval-evidence",
+      "description": "Public evidence hosting for eval PR screenshots",
+      "created_at": "2026-09-11T08:50:29Z",
+      "stars": 0,
+      "reason": "Public evidence hosting for eval PR screenshots",
+      "matched": [
+        "\"PR screenshots\" in:description created:>2026-06-02"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T12:21:50Z"
+    },
+    {
+      "name": "mpiska/workq-evidence",
+      "url": "https://github.com/mpiska/workq-evidence",
+      "description": "Public workq evidence mirror for PR screenshot embeds",
+      "created_at": "2026-09-10T22:55:38Z",
+      "stars": 0,
+      "reason": "Public workq evidence mirror for PR screenshot embeds",
+      "matched": [
+        "\"PR screenshots\" in:description created:>2026-06-02"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T12:21:50Z"
+    },
+    {
+      "name": "undeemed/pr-screenshots",
+      "url": "https://github.com/undeemed/pr-screenshots",
+      "description": "",
+      "created_at": "2026-09-10T16:46:53Z",
+      "stars": 0,
+      "reason": "pr-screenshots in:name created:>2026-06-02",
+      "matched": [
+        "pr-screenshots in:name created:>2026-06-02"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T12:21:50Z"
+    },
+    {
+      "name": "BreakTheBeta/gitshot-images",
+      "url": "https://github.com/BreakTheBeta/gitshot-images",
       "description": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
-      "created_at": "2026-03-26T18:42:12Z",
+      "created_at": "2026-09-10T09:51:06Z",
       "stars": 0,
-      "reason": "gitshot-managed public image host",
+      "reason": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
       "matched": [
-        "Managed by gitshot",
-        "gitshot-images"
+        "gitshot-images in:name"
       ],
       "severity": "gitshot-host",
-      "first_seen": "2026-09-30T12:16:35Z"
+      "first_seen": "2026-09-30T12:21:50Z"
     },
     {
-      "name": "Iaz7/gitshot-images",
-      "url": "https://github.com/Iaz7/gitshot-images",
-      "description": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
-      "created_at": "2026-04-29T03:15:00Z",
+      "name": "NateWeav/pr-evidence",
+      "url": "https://github.com/NateWeav/pr-evidence",
+      "description": "Public screenshots and visual evidence for pull requests. Assets are stored in releases, not source trees.",
+      "created_at": "2026-09-09T05:39:57Z",
       "stars": 0,
-      "reason": "gitshot-managed public image host",
+      "reason": "Public screenshots and visual evidence for pull requests. Assets are stored in releases, not source trees.",
       "matched": [
-        "Managed by gitshot"
-      ],
-      "severity": "gitshot-host",
-      "first_seen": "2026-09-30T12:16:35Z"
-    },
-    {
-      "name": "Pokoion/gitshot-images",
-      "url": "https://github.com/Pokoion/gitshot-images",
-      "description": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
-      "created_at": "2026-04-28T13:10:22Z",
-      "stars": 0,
-      "reason": "gitshot-managed public image host",
-      "matched": [
-        "Managed by gitshot"
-      ],
-      "severity": "gitshot-host",
-      "first_seen": "2026-09-30T12:16:35Z"
-    },
-    {
-      "name": "ricardobeat/gitshot-images",
-      "url": "https://github.com/ricardobeat/gitshot-images",
-      "description": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
-      "created_at": "2026-04-28T19:10:40Z",
-      "stars": 0,
-      "reason": "gitshot-managed public image host",
-      "matched": [
-        "Managed by gitshot"
-      ],
-      "severity": "gitshot-host",
-      "first_seen": "2026-09-30T12:16:35Z"
-    },
-    {
-      "name": "ZackaryShen/pr-assets",
-      "url": "https://github.com/ZackaryShen/pr-assets",
-      "description": "PR screenshot assets",
-      "created_at": "2026-09-03T06:14:23Z",
-      "stars": 0,
-      "reason": "Brand-new public repo solely for PR screenshot assets",
-      "matched": [
-        "PR screenshot assets",
-        "pr-assets"
+        "pr-evidence in:name created:>2026-06-02"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
+      "first_seen": "2026-09-30T12:21:50Z"
     },
     {
-      "name": "srossi-rgb/pr-assets",
-      "url": "https://github.com/srossi-rgb/pr-assets",
-      "description": "Public assets (PR screenshots)",
-      "created_at": "2026-07-01T15:25:47Z",
+      "name": "guym-onyx/onyx-agent-evidence",
+      "url": "https://github.com/guym-onyx/onyx-agent-evidence",
+      "description": "Public evidence hosting for agent-factory PR screenshots",
+      "created_at": "2026-09-08T19:24:51Z",
       "stars": 0,
-      "reason": "Public PR screenshot asset dump",
+      "reason": "Public evidence hosting for agent-factory PR screenshots",
       "matched": [
-        "Public assets (PR screenshots)"
+        "\"PR screenshots\" in:description created:>2026-06-02"
       ],
-      "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
-    },
-    {
-      "name": "jessicairwinwa/visionclaw-pr-assets",
-      "url": "https://github.com/jessicairwinwa/visionclaw-pr-assets",
-      "description": "Temporary PR image assets",
-      "created_at": "2026-08-15T04:00:33Z",
-      "stars": 0,
-      "reason": "Temporary PR image asset host pattern",
-      "matched": [
-        "Temporary PR image assets"
-      ],
-      "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
-    },
-    {
-      "name": "quannguyenleanh/pr-evidence",
-      "url": "https://github.com/quannguyenleanh/pr-evidence",
-      "description": "PR evidence assets",
-      "created_at": "2026-05-27T04:29:59Z",
-      "stars": 0,
-      "reason": "PR evidence assets public dump",
-      "matched": [
-        "PR evidence assets"
-      ],
-      "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
-    },
-    {
-      "name": "jamesmfriedman/pr-evidence",
-      "url": "https://github.com/jamesmfriedman/pr-evidence",
-      "description": "PR review evidence assets",
-      "created_at": "2026-05-09T10:21:41Z",
-      "stars": 0,
-      "reason": "PR review evidence assets",
-      "matched": [
-        "PR review evidence assets"
-      ],
-      "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
+      "severity": "agent-assets",
+      "first_seen": "2026-09-30T12:21:50Z"
     },
     {
       "name": "pixelatedhacker/pr-evidence",
@@ -185,93 +166,38 @@
       "description": "PR screenshot evidence uploads",
       "created_at": "2026-09-06T08:45:11Z",
       "stars": 0,
-      "reason": "Recent PR screenshot evidence upload repo",
+      "reason": "PR screenshot evidence uploads",
       "matched": [
-        "PR screenshot evidence"
+        "pr-evidence in:name created:>2026-06-02"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
+      "first_seen": "2026-09-30T12:21:50Z"
     },
     {
-      "name": "lslv1243/agendor-pr-assets",
-      "url": "https://github.com/lslv1243/agendor-pr-assets",
-      "description": "PR assets (screenshots, diagrams) for lslv1243/agendor",
-      "created_at": "2026-04-18T21:27:53Z",
+      "name": "Raemon/pr-screenshots",
+      "url": "https://github.com/Raemon/pr-screenshots",
+      "description": "Public host for PR screenshots so they render on humanintheloop.reviews and in private-repo PRs",
+      "created_at": "2026-09-04T03:14:25Z",
       "stars": 0,
-      "reason": "Separate public repo for screenshots of another project",
+      "reason": "Public host for PR screenshots so they render on humanintheloop.reviews and in private-repo PRs",
       "matched": [
-        "PR assets screenshots diagrams"
+        "pr-screenshots in:name created:>2026-06-02"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
+      "first_seen": "2026-09-30T12:21:50Z"
     },
     {
-      "name": "zly2006/agent-image",
-      "url": "https://github.com/zly2006/agent-image",
-      "description": "Agent-generated review images and PR assets",
-      "created_at": "2026-06-09T05:18:14Z",
+      "name": "ZackaryShen/pr-assets",
+      "url": "https://github.com/ZackaryShen/pr-assets",
+      "description": "PR screenshot assets",
+      "created_at": "2026-09-03T06:14:23Z",
       "stars": 0,
-      "reason": "Explicitly agent-generated PR review images",
+      "reason": "PR screenshot assets",
       "matched": [
-        "Agent-generated review images",
-        "PR assets"
-      ],
-      "severity": "agent-assets",
-      "first_seen": "2026-09-30T12:16:35Z"
-    },
-    {
-      "name": "erwinrr/churchai-pr-assets",
-      "url": "https://github.com/erwinrr/churchai-pr-assets",
-      "description": "Public PR assets (screenshots/videos) for churchai PRs from cloud agents",
-      "created_at": "2026-05-04T04:26:55Z",
-      "stars": 0,
-      "reason": "Cloud-agent PR screenshots/videos dumped publicly",
-      "matched": [
-        "cloud agents",
-        "PR assets screenshots"
-      ],
-      "severity": "agent-assets",
-      "first_seen": "2026-09-30T12:16:35Z"
-    },
-    {
-      "name": "SV-yang-yahui/ingres-3056-e2e-shots",
-      "url": "https://github.com/SV-yang-yahui/ingres-3056-e2e-shots",
-      "description": "Ingres #3056 e2e UI screenshots (feature dialogs, no patient data) \u2014 temporary PR assets, safe to delete",
-      "created_at": "2026-06-25T13:01:51Z",
-      "stars": 0,
-      "reason": "Temporary PR UI screenshots tied to ticket number",
-      "matched": [
-        "temporary PR assets",
-        "e2e UI screenshots"
+        "pr-assets in:name created:>2026-06-02"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
-    },
-    {
-      "name": "rupeshjainearnin/pr-screenshots",
-      "url": "https://github.com/rupeshjainearnin/pr-screenshots",
-      "description": "PR screenshots",
-      "created_at": "2026-05-13T06:00:57Z",
-      "stars": 0,
-      "reason": "Minimal public PR screenshot host",
-      "matched": [
-        "PR screenshots"
-      ],
-      "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
-    },
-    {
-      "name": "HectorQuinonesBetterment/pr-screenshots",
-      "url": "https://github.com/HectorQuinonesBetterment/pr-screenshots",
-      "description": "PR screenshot storage",
-      "created_at": "2026-03-30T14:50:32Z",
-      "stars": 0,
-      "reason": "PR screenshot storage under personal account",
-      "matched": [
-        "PR screenshot storage"
-      ],
-      "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
+      "first_seen": "2026-09-30T12:21:50Z"
     },
     {
       "name": "PauloAK/robotizap-assets",
@@ -279,77 +205,12 @@
       "description": "PR screenshots",
       "created_at": "2026-09-01T19:36:17Z",
       "stars": 0,
-      "reason": "Recent PR screenshots asset repo",
+      "reason": "PR screenshots",
       "matched": [
-        "PR screenshots"
+        "\"PR screenshots\" in:description created:>2026-06-02"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
-    },
-    {
-      "name": "lb1192176991-lab/evidence-assets",
-      "url": "https://github.com/lb1192176991-lab/evidence-assets",
-      "description": "PR evidence screenshots",
-      "created_at": "2026-05-27T17:52:41Z",
-      "stars": 0,
-      "reason": "PR evidence screenshots dump",
-      "matched": [
-        "PR evidence screenshots"
-      ],
-      "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
-    },
-    {
-      "name": "lzyyzznl/my-pr-image-evidences",
-      "url": "https://github.com/lzyyzznl/my-pr-image-evidences",
-      "description": "PR screenshot image hosting",
-      "created_at": "2026-06-18T16:05:15Z",
-      "stars": 0,
-      "reason": "Dedicated PR screenshot image hosting",
-      "matched": [
-        "PR screenshot image hosting"
-      ],
-      "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
-    },
-    {
-      "name": "zhangqueping/my-pr-image-evidences",
-      "url": "https://github.com/zhangqueping/my-pr-image-evidences",
-      "description": "PR screenshot image hosting",
-      "created_at": "2026-06-28T07:58:32Z",
-      "stars": 0,
-      "reason": "Dedicated PR screenshot image hosting",
-      "matched": [
-        "PR screenshot image hosting"
-      ],
-      "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
-    },
-    {
-      "name": "Pandah97/my-pr-image-evidences",
-      "url": "https://github.com/Pandah97/my-pr-image-evidences",
-      "description": "PR screenshot image hosting",
-      "created_at": "2026-07-01T03:03:43Z",
-      "stars": 0,
-      "reason": "Dedicated PR screenshot image hosting",
-      "matched": [
-        "PR screenshot image hosting"
-      ],
-      "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
-    },
-    {
-      "name": "vikramadityasharma1992/tooltip-pr-screenshots",
-      "url": "https://github.com/vikramadityasharma1992/tooltip-pr-screenshots",
-      "description": "Temporary PR screenshot assets",
-      "created_at": "2026-04-01T18:24:44Z",
-      "stars": 0,
-      "reason": "Temporary PR screenshot assets pattern",
-      "matched": [
-        "Temporary PR screenshot assets"
-      ],
-      "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
+      "first_seen": "2026-09-30T12:21:50Z"
     },
     {
       "name": "zwarunek/pr-assets",
@@ -359,88 +220,49 @@
       "stars": 0,
       "reason": "Ephemeral PR screenshot hosting",
       "matched": [
-        "Ephemeral PR screenshot hosting"
+        "\"PR screenshots\" in:description created:>2026-06-02"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
+      "first_seen": "2026-09-30T12:21:50Z"
     },
     {
-      "name": "obatola/pr-media",
-      "url": "https://github.com/obatola/pr-media",
-      "description": "Ephemeral PR screenshot hosting",
-      "created_at": "2026-07-31T17:09:49Z",
+      "name": "tobiasvdorp/pull-request-image-upload-for-agents",
+      "url": "https://github.com/tobiasvdorp/pull-request-image-upload-for-agents",
+      "description": "Authenticated image upload gateway for GitHub PR screenshots",
+      "created_at": "2026-08-27T13:22:24Z",
       "stars": 0,
-      "reason": "Ephemeral PR screenshot hosting",
+      "reason": "Authenticated image upload gateway for GitHub PR screenshots",
       "matched": [
-        "Ephemeral PR screenshot hosting"
+        "\"PR screenshots\" in:description created:>2026-06-02"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
+      "first_seen": "2026-09-30T12:21:50Z"
     },
     {
-      "name": "tasq/pr-attachments",
-      "url": "https://github.com/tasq/pr-attachments",
-      "description": "PR evidence image attachments",
-      "created_at": "2026-09-14T11:58:17Z",
+      "name": "WebsiteOperations/gitshot-images",
+      "url": "https://github.com/WebsiteOperations/gitshot-images",
+      "description": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
+      "created_at": "2026-08-27T01:50:46Z",
       "stars": 0,
-      "reason": "Very recent PR evidence image attachments",
+      "reason": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
       "matched": [
-        "PR evidence image attachments"
+        "gitshot in:name created:>2026-06-02"
       ],
-      "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
+      "severity": "gitshot-host",
+      "first_seen": "2026-09-30T12:21:50Z"
     },
     {
-      "name": "WhiteMatrixTech/pr-assets-tmp",
-      "url": "https://github.com/WhiteMatrixTech/pr-assets-tmp",
-      "description": "temp PR evidence images",
-      "created_at": "2026-08-03T21:58:35Z",
+      "name": "RhysAtBolt/gitshot-images",
+      "url": "https://github.com/RhysAtBolt/gitshot-images",
+      "description": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
+      "created_at": "2026-08-26T17:28:09Z",
       "stars": 0,
-      "reason": "Explicitly temporary PR evidence images",
+      "reason": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
       "matched": [
-        "temp PR evidence images"
+        "gitshot-images in:name"
       ],
-      "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
-    },
-    {
-      "name": "mprambadi/herdr-assets",
-      "url": "https://github.com/mprambadi/herdr-assets",
-      "description": "Herdr PR evidence images",
-      "created_at": "2026-07-14T14:32:49Z",
-      "stars": 0,
-      "reason": "PR evidence images dump",
-      "matched": [
-        "PR evidence images"
-      ],
-      "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
-    },
-    {
-      "name": "lukuku-dev/pr-screenshots",
-      "url": "https://github.com/lukuku-dev/pr-screenshots",
-      "description": "PR screenshots for jentestore-korea",
-      "created_at": "2026-02-22T16:38:02Z",
-      "stars": 0,
-      "reason": "Public PR screenshots for a named product",
-      "matched": [
-        "PR screenshots"
-      ],
-      "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
-    },
-    {
-      "name": "fickiefickie/pr-assets",
-      "url": "https://github.com/fickiefickie/pr-assets",
-      "description": "Public hosting for PR screenshots",
-      "created_at": "2026-03-16T22:41:38Z",
-      "stars": 0,
-      "reason": "Explicit public hosting for PR screenshots",
-      "matched": [
-        "Public hosting for PR screenshots"
-      ],
-      "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
+      "severity": "gitshot-host",
+      "first_seen": "2026-09-30T12:21:50Z"
     },
     {
       "name": "ytw418/pr-assets",
@@ -448,52 +270,246 @@
       "description": "PR screenshot assets (agent-uploaded)",
       "created_at": "2026-08-25T05:04:49Z",
       "stars": 0,
-      "reason": "Explicitly agent-uploaded PR screenshot assets",
+      "reason": "PR screenshot assets (agent-uploaded)",
       "matched": [
-        "agent-uploaded",
-        "PR screenshot assets"
+        "\"PR screenshots\" in:description created:>2026-06-02"
       ],
       "severity": "agent-assets",
-      "first_seen": "2026-09-30T12:16:35Z"
+      "first_seen": "2026-09-30T12:21:50Z"
     },
     {
-      "name": "cleo-heygen/pr-screenshots",
-      "url": "https://github.com/cleo-heygen/pr-screenshots",
-      "description": "Public repo for PR screenshots",
-      "created_at": "2026-04-22T00:42:37Z",
+      "name": "doziben/gitshot-images",
+      "url": "https://github.com/doziben/gitshot-images",
+      "description": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
+      "created_at": "2026-08-23T20:43:04Z",
       "stars": 0,
-      "reason": "Public repo solely for PR screenshots",
+      "reason": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
       "matched": [
-        "Public repo for PR screenshots"
+        "gitshot-images in:name"
+      ],
+      "severity": "gitshot-host",
+      "first_seen": "2026-09-30T12:21:50Z"
+    },
+    {
+      "name": "cragsun/pr-evidence",
+      "url": "https://github.com/cragsun/pr-evidence",
+      "description": "Capturas de evidencia de las PRs de cragser.dev (el repo de la plataforma es privado y GitHub no renderiza imagenes de repos privados en el cuerpo de un PR)",
+      "created_at": "2026-08-23T04:23:46Z",
+      "stars": 0,
+      "reason": "Capturas de evidencia de las PRs de cragser.dev (el repo de la plataforma es privado y GitHub no renderiza imagenes de repos privados en el cuerpo de un PR)",
+      "matched": [
+        "pr-evidence in:name created:>2026-06-02"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
+      "first_seen": "2026-09-30T12:21:50Z"
     },
     {
-      "name": "yuju987071-cmyk/mdpacs-pr-assets",
-      "url": "https://github.com/yuju987071-cmyk/mdpacs-pr-assets",
-      "description": "MDPACS PR demo assets",
-      "created_at": "2026-07-21T04:18:16Z",
+      "name": "MichaelKapustey/pr-screenshots",
+      "url": "https://github.com/MichaelKapustey/pr-screenshots",
+      "description": "Screenshots for pull requests",
+      "created_at": "2026-08-22T13:51:19Z",
       "stars": 0,
-      "reason": "PR demo assets dump",
+      "reason": "Screenshots for pull requests",
       "matched": [
-        "PR demo assets"
+        "pr-screenshots in:name created:>2026-06-02"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-09-30T12:16:35Z"
+      "first_seen": "2026-09-30T12:21:50Z"
     },
     {
-      "name": "BhageshPant/GitShot",
-      "url": "https://github.com/BhageshPant/GitShot",
-      "description": "GitShot Repo",
-      "created_at": "2026-04-23T15:35:59Z",
+      "name": "trekawek/gitshot-images",
+      "url": "https://github.com/trekawek/gitshot-images",
+      "description": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
+      "created_at": "2026-08-21T23:35:06Z",
       "stars": 0,
-      "reason": "Named GitShot repo (possible host/fork)",
+      "reason": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
       "matched": [
-        "gitshot in:name"
+        "gitshot-images in:name"
       ],
-      "severity": "gitshot-related",
-      "first_seen": "2026-09-30T12:16:35Z"
+      "severity": "gitshot-host",
+      "first_seen": "2026-09-30T12:21:50Z"
+    },
+    {
+      "name": "richersoon/hyax-pr-media",
+      "url": "https://github.com/richersoon/hyax-pr-media",
+      "description": "PR screenshots and recordings for Hermes bot PRs",
+      "created_at": "2026-08-20T06:09:24Z",
+      "stars": 0,
+      "reason": "PR screenshots and recordings for Hermes bot PRs",
+      "matched": [
+        "\"PR screenshots\" in:description created:>2026-06-02"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T12:21:50Z"
+    },
+    {
+      "name": "siddharth-rv/gitshot-images",
+      "url": "https://github.com/siddharth-rv/gitshot-images",
+      "description": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
+      "created_at": "2026-08-18T06:35:59Z",
+      "stars": 0,
+      "reason": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
+      "matched": [
+        "gitshot in:name created:>2026-06-02"
+      ],
+      "severity": "gitshot-host",
+      "first_seen": "2026-09-30T12:21:50Z"
+    },
+    {
+      "name": "mahiatlinux/pr-screenshots",
+      "url": "https://github.com/mahiatlinux/pr-screenshots",
+      "description": "",
+      "created_at": "2026-08-18T03:56:19Z",
+      "stars": 0,
+      "reason": "pr-screenshots in:name created:>2026-06-02",
+      "matched": [
+        "pr-screenshots in:name created:>2026-06-02"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T12:21:50Z"
+    },
+    {
+      "name": "santi-ug/uploads",
+      "url": "https://github.com/santi-ug/uploads",
+      "description": "Public asset host for agent uploads (PR screenshots, recordings)",
+      "created_at": "2026-08-12T22:13:19Z",
+      "stars": 0,
+      "reason": "Public asset host for agent uploads (PR screenshots, recordings)",
+      "matched": [
+        "\"PR screenshots\" in:description created:>2026-06-02"
+      ],
+      "severity": "agent-assets",
+      "first_seen": "2026-09-30T12:21:50Z"
+    },
+    {
+      "name": "davidminin/gitshot-images",
+      "url": "https://github.com/davidminin/gitshot-images",
+      "description": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
+      "created_at": "2026-08-10T15:32:22Z",
+      "stars": 0,
+      "reason": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
+      "matched": [
+        "\"Managed by gitshot\" in:description"
+      ],
+      "severity": "gitshot-host",
+      "first_seen": "2026-09-30T12:21:50Z"
+    },
+    {
+      "name": "mercerbe/tm-pr-shots",
+      "url": "https://github.com/mercerbe/tm-pr-shots",
+      "description": "Treasury PR screenshots (mock-data UI captures)",
+      "created_at": "2026-08-06T18:23:59Z",
+      "stars": 0,
+      "reason": "Treasury PR screenshots (mock-data UI captures)",
+      "matched": [
+        "\"PR screenshots\" in:description created:>2026-06-02"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T12:21:50Z"
+    },
+    {
+      "name": "NCCOG/nccog-pr-assets",
+      "url": "https://github.com/NCCOG/nccog-pr-assets",
+      "description": "Public assets for PR screenshots (no sensitive data)",
+      "created_at": "2026-08-04T18:35:59Z",
+      "stars": 0,
+      "reason": "Public assets for PR screenshots (no sensitive data)",
+      "matched": [
+        "\"PR screenshots\" in:description created:>2026-06-02"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T12:21:50Z"
+    },
+    {
+      "name": "ArjitG801/pr-screenshots",
+      "url": "https://github.com/ArjitG801/pr-screenshots",
+      "description": "Screenshot hosting for PRs",
+      "created_at": "2026-08-03T11:25:37Z",
+      "stars": 0,
+      "reason": "Screenshot hosting for PRs",
+      "matched": [
+        "pr-screenshots in:name created:>2026-06-02"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T12:21:50Z"
+    },
+    {
+      "name": "eduwass/pr-assets",
+      "url": "https://github.com/eduwass/pr-assets",
+      "description": "Public image assets for PR screenshots",
+      "created_at": "2026-07-31T19:05:31Z",
+      "stars": 0,
+      "reason": "Public image assets for PR screenshots",
+      "matched": [
+        "\"PR screenshots\" in:description created:>2026-06-02"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-09-30T12:21:50Z"
+    },
+    {
+      "name": "ok-sounds-good-dev/gitshot-images",
+      "url": "https://github.com/ok-sounds-good-dev/gitshot-images",
+      "description": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
+      "created_at": "2026-07-28T17:31:12Z",
+      "stars": 0,
+      "reason": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
+      "matched": [
+        "gitshot-images in:name"
+      ],
+      "severity": "gitshot-host",
+      "first_seen": "2026-09-30T12:21:50Z"
+    },
+    {
+      "name": "rd-clawd-deer/gitshot-images",
+      "url": "https://github.com/rd-clawd-deer/gitshot-images",
+      "description": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
+      "created_at": "2026-07-18T22:39:24Z",
+      "stars": 0,
+      "reason": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
+      "matched": [
+        "gitshot-images in:name"
+      ],
+      "severity": "gitshot-host",
+      "first_seen": "2026-09-30T12:21:50Z"
+    },
+    {
+      "name": "AmethystLiang/gitshot-images",
+      "url": "https://github.com/AmethystLiang/gitshot-images",
+      "description": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
+      "created_at": "2026-07-15T04:00:32Z",
+      "stars": 0,
+      "reason": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
+      "matched": [
+        "gitshot-images in:name"
+      ],
+      "severity": "gitshot-host",
+      "first_seen": "2026-09-30T12:21:50Z"
+    },
+    {
+      "name": "erichsu/gitshot-images",
+      "url": "https://github.com/erichsu/gitshot-images",
+      "description": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
+      "created_at": "2026-06-28T03:27:42Z",
+      "stars": 0,
+      "reason": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
+      "matched": [
+        "gitshot-images in:name"
+      ],
+      "severity": "gitshot-host",
+      "first_seen": "2026-09-30T12:21:50Z"
+    },
+    {
+      "name": "jharkless-pers/gitshot-images",
+      "url": "https://github.com/jharkless-pers/gitshot-images",
+      "description": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
+      "created_at": "2026-06-27T07:32:13Z",
+      "stars": 0,
+      "reason": "Image hosting for GitHub issues & PRs. Managed by gitshot.",
+      "matched": [
+        "gitshot-images in:name"
+      ],
+      "severity": "gitshot-host",
+      "first_seen": "2026-09-30T12:21:50Z"
     },
     {
       "name": "lizzz0523/gitshot",
@@ -501,38 +517,38 @@
       "description": "",
       "created_at": "2026-04-28T07:03:46Z",
       "stars": 0,
-      "reason": "Empty-ish gitshot-named repo created amid wave",
+      "reason": "gitshot in:name created:>2026-06-02",
       "matched": [
-        "gitshot in:name"
+        "gitshot in:name created:>2026-06-02"
       ],
       "severity": "gitshot-related",
-      "first_seen": "2026-09-30T12:16:35Z"
+      "first_seen": "2026-09-30T12:21:50Z"
     },
     {
-      "name": "modem-dev/glance-agent-plugins",
-      "url": "https://github.com/modem-dev/glance-agent-plugins",
-      "description": "Agent plugins for glance.sh \u2014 temporary image sharing for coding agents",
-      "created_at": "2026-03-07T03:39:46Z",
-      "stars": 13,
-      "reason": "Temporary image sharing tooling for coding agents",
+      "name": "BhageshPant/GitShot",
+      "url": "https://github.com/BhageshPant/GitShot",
+      "description": "GitShot Repo",
+      "created_at": "2026-04-23T15:35:59Z",
+      "stars": 0,
+      "reason": "GitShot Repo",
       "matched": [
-        "temporary image sharing for coding agents"
+        "gitshot in:name created:>2026-06-02"
       ],
-      "severity": "tool",
-      "first_seen": "2026-09-30T12:16:35Z"
+      "severity": "gitshot-related",
+      "first_seen": "2026-09-30T12:21:50Z"
     },
     {
-      "name": "atani/gh-attach",
-      "url": "https://github.com/atani/gh-attach",
-      "description": "Upload images to GitHub & GHE issue/PR comments from the CLI and get the real user-attachments/assets URL. Works as a gh extension.",
-      "created_at": "2026-01-27T12:34:33Z",
-      "stars": 21,
-      "reason": "CLI tool for attaching images to PRs (related attack surface)",
+      "name": "vipulgupta2048/gitshot",
+      "url": "https://github.com/vipulgupta2048/gitshot",
+      "description": "Zero-config, agent-first CLI to upload images to issues, PRs, and comments. Screenshots on GitHub, now without a browser.",
+      "created_at": "2026-03-25T12:48:21Z",
+      "stars": 26,
+      "reason": "Zero-config, agent-first CLI to upload images to issues, PRs, and comments. Screenshots on GitHub, now without a browser.",
       "matched": [
-        "Upload images to PR comments CLI"
+        "gitshot in:name created:>2026-06-02"
       ],
       "severity": "tool",
-      "first_seen": "2026-09-30T12:16:35Z"
+      "first_seen": "2026-09-30T12:21:50Z"
     }
   ]
 }
