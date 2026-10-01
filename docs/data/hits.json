@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T16:27:13Z",
+  "generated_at": "2026-10-01T21:49:49Z",
   "scan_id": "scan-2026-10-01",
   "source": "github-actions",
   "count": 60,
@@ -8,10 +8,43 @@
     "empty-repo": 11,
     "low-signal": 2,
     "other": 2,
-    "no-admission": 27
+    "no-admission": 28
   },
-  "candidates_considered": 132,
+  "candidates_considered": 134,
   "hits": [
+    {
+      "name": "gautirao/udupi-pe-evidence",
+      "url": "https://github.com/gautirao/udupi-pe-evidence",
+      "description": "Public evidence hosting for udupi-property-explorer PR reviews",
+      "created_at": "2026-10-01T19:06:48Z",
+      "stars": 0,
+      "reason": "Public evidence hosting for udupi-property-explorer PR reviews",
+      "matched": [
+        "public evidence hosting"
+      ],
+      "severity": "asset-dump",
+      "first_seen": "2026-10-01T21:49:49Z",
+      "source": "repo-search",
+      "quality": "tree-content:pr-2772,pr-2775",
+      "enrichment": {
+        "size_kb": 8724,
+        "root_files": [
+          "README.md",
+          "pr-2772",
+          "pr-2775"
+        ],
+        "non_boilerplate": [
+          "pr-2772",
+          "pr-2775"
+        ],
+        "image_files_root": [],
+        "release_image_assets": 0,
+        "release_bytes": 0,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 5,
+        "admission": true
+      }
+    },
     {
       "name": "AlwaysStacking/code-flux-gbp-media-2026-09-30",
       "url": "https://github.com/AlwaysStacking/code-flux-gbp-media-2026-09-30",
@@ -23,7 +56,7 @@
         "safe-to-delete PR media"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:gbp",
       "enrichment": {
@@ -54,7 +87,7 @@
         "safe-to-delete PR media"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:reels,stories",
       "enrichment": {
@@ -87,7 +120,7 @@
         "agent-factory evidence"
       ],
       "severity": "agent-assets",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:Dockerfile.back,Dockerfile.front,docker-compose.yml",
       "enrichment": {
@@ -125,7 +158,7 @@
         "for private-repo PR"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-images:1",
       "enrichment": {
@@ -158,7 +191,7 @@
         "anonymous-resolvable image host"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:assets,evidence",
       "enrichment": {
@@ -191,7 +224,7 @@
         "screenshots linked from private PR"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:herdr-ide,hide,modakbul-gongbang-hide",
       "enrichment": {
@@ -226,7 +259,7 @@
         "anonymous-resolvable image host"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:img",
       "enrichment": {
@@ -257,7 +290,7 @@
         "agent-factory evidence"
       ],
       "severity": "agent-assets",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:86bc3cpuv,round13,round14",
       "enrichment": {
@@ -292,7 +325,7 @@
         "temporary public host for PR"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-images:2",
       "enrichment": {
@@ -332,7 +365,7 @@
         "public evidence hosting"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:img",
       "enrichment": {
@@ -363,7 +396,7 @@
         "screenshots linked from private PR"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:completeness-reminder,copy-menu-and-section-visibility,vve-0631",
       "enrichment": {
@@ -398,7 +431,7 @@
         "public evidence hosting"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-images:31",
       "enrichment": {
@@ -473,7 +506,7 @@
         "pr-evidence name"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:prdct14867-1789700320,prdct14867-r7-1789742812",
       "enrichment": {
@@ -506,7 +539,7 @@
         "safe-to-delete PR media"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-images:4",
       "enrichment": {
@@ -559,7 +592,7 @@
         "anonymous-resolvable image host"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:img",
       "enrichment": {
@@ -590,7 +623,7 @@
         "public evidence hosting"
       ],
       "severity": "agent-assets",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:prdct-14853,prdct14853",
       "enrichment": {
@@ -622,7 +655,7 @@
         "public evidence hosting"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:img",
       "enrichment": {
@@ -653,7 +686,7 @@
         "safe-to-delete PR media"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-images:6",
       "enrichment": {
@@ -717,7 +750,7 @@
         "agent-factory evidence"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:86bbyzzf0,PRDCT-14963,prdct-14865-1789663352,prdct-14963",
       "enrichment": {
@@ -754,7 +787,7 @@
         "public evidence hosting"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:prdct13310",
       "enrichment": {
@@ -785,7 +818,7 @@
         "public evidence hosting"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:prdct14662",
       "enrichment": {
@@ -816,7 +849,7 @@
         "anonymous-resolvable image host"
       ],
       "severity": "agent-assets",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:PRDCT-14267",
       "enrichment": {
@@ -847,7 +880,7 @@
         "agent-factory evidence"
       ],
       "severity": "agent-assets",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:img",
       "enrichment": {
@@ -878,7 +911,7 @@
         "anonymous-resolvable image host"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-images:4",
       "enrichment": {
@@ -919,7 +952,7 @@
         "public evidence hosting"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:img,r11,r15,r16",
       "enrichment": {
@@ -973,7 +1006,7 @@
         "public evidence hosting"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:img",
       "enrichment": {
@@ -1005,7 +1038,7 @@
         "pr-evidence name"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:prdct-14216",
       "enrichment": {
@@ -1035,7 +1068,7 @@
         "public evidence hosting"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:pr-13451-1789426703,pr-13451-relabel,pr-13451-round5,pr-13451-round6",
       "enrichment": {
@@ -1086,7 +1119,7 @@
         "public evidence hosting"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:img",
       "enrichment": {
@@ -1118,7 +1151,7 @@
         "agent-factory evidence"
       ],
       "severity": "agent-assets",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:img",
       "enrichment": {
@@ -1149,7 +1182,7 @@
         "safe-to-delete PR media"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:bench,pyproject.toml,src,tests",
       "enrichment": {
@@ -1191,7 +1224,7 @@
         "pr-evidence name"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-images:4",
       "enrichment": {
@@ -1233,7 +1266,7 @@
         "temporary public host for PR"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-images:6",
       "enrichment": {
@@ -1282,7 +1315,7 @@
         "ephemeral PR screenshot host"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:dms-10242,dms-10805,dms-10887,dms-10892",
       "enrichment": {
@@ -1325,7 +1358,7 @@
         "agent-uploaded assets"
       ],
       "severity": "agent-assets",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:allibee-frontend,bredy_app",
       "enrichment": {
@@ -1357,7 +1390,7 @@
         "safe-to-delete PR media"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:app.css,index.html,vercel.json",
       "enrichment": {
@@ -1394,7 +1427,7 @@
         "safe-to-delete PR media"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:media,payloads",
       "enrichment": {
@@ -1427,7 +1460,7 @@
         "safe-to-delete PR media"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-images:15",
       "enrichment": {
@@ -1498,7 +1531,7 @@
         "safe-to-delete PR media"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:404.html,assets,chatgpt-icon.svg,claude-icon.svg",
       "enrichment": {
@@ -1546,7 +1579,7 @@
         "agent-factory evidence"
       ],
       "severity": "agent-assets",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:prdct-11466",
       "enrichment": {
@@ -1578,7 +1611,7 @@
         "public evidence hosting"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:img",
       "enrichment": {
@@ -1609,7 +1642,7 @@
         "safe-to-delete PR media"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:index.html",
       "enrichment": {
@@ -1640,7 +1673,7 @@
         "ephemeral PR screenshot host"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-images:2",
       "enrichment": {
@@ -1665,39 +1698,6 @@
       }
     },
     {
-      "name": "RavivGuy/agent-factory-evidence",
-      "url": "https://github.com/RavivGuy/agent-factory-evidence",
-      "description": "Public host for agent-factory PR evidence images (eval artifacts)",
-      "created_at": "2026-07-30T13:41:02Z",
-      "stars": 0,
-      "reason": "Public host for agent-factory PR evidence images (eval artifacts)",
-      "matched": [
-        "agent-factory evidence"
-      ],
-      "severity": "agent-assets",
-      "first_seen": "2026-10-01T16:27:13Z",
-      "source": "repo-search",
-      "quality": "tree-content:86bc196cw,prdct6982",
-      "enrichment": {
-        "size_kb": 13370,
-        "root_files": [
-          "86bc196cw",
-          "README.md",
-          "prdct6982"
-        ],
-        "non_boilerplate": [
-          "86bc196cw",
-          "prdct6982"
-        ],
-        "image_files_root": [],
-        "release_image_assets": 16,
-        "release_bytes": 1889188,
-        "gitshot_release_assets": 0,
-        "commit_page_count": 5,
-        "admission": true
-      }
-    },
-    {
       "name": "cjones-blvd/bui-table-truncation-demo",
       "url": "https://github.com/cjones-blvd/bui-table-truncation-demo",
       "description": "Throwaway: Products table truncation-pattern comparison for design review (COM-7257). Safe to delete after the decision.",
@@ -1708,7 +1708,7 @@
         "safe-to-delete PR media"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:1280.4d6bbcc6.iframe.bundle.js,1446.02038c54.iframe.bundle.js,1446.02038c54.iframe.bundle.js.LICENSE.txt,1446.02038c54.iframe.bundle.js.map",
       "enrichment": {
@@ -1771,11 +1771,11 @@
         "agent-uploaded assets"
       ],
       "severity": "agent-assets",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:guide,issues,legacy,requests",
       "enrichment": {
-        "size_kb": 551272,
+        "size_kb": 559531,
         "root_files": [
           "README.md",
           "guide",
@@ -1808,7 +1808,7 @@
         "safe-to-delete PR media"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:index.html",
       "enrichment": {
@@ -1839,7 +1839,7 @@
         "agent-factory evidence"
       ],
       "severity": "agent-assets",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:86bayex2f-1784166269,86bayex2f-at5-r7-1785318219,86bayex2f-at5-r8-shipped-1785325958,86bayex2f-at5-r9-1785327924",
       "enrichment": {
@@ -1896,7 +1896,7 @@
         "safe-to-delete PR media"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-images:517",
       "enrichment": {
@@ -1970,7 +1970,7 @@
         "safe-to-delete PR media"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:item1,item2,item4,snap",
       "enrichment": {
@@ -2006,7 +2006,7 @@
         "safe-to-delete PR media"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-images:5",
       "enrichment": {
@@ -2051,7 +2051,7 @@
         "safe-to-delete PR media"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "admission+content",
       "enrichment": {
@@ -2080,7 +2080,7 @@
         "safe-to-delete PR media"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-images:5",
       "enrichment": {
@@ -2149,7 +2149,7 @@
         "pr-evidence name"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-images:3",
       "enrichment": {
@@ -2207,7 +2207,7 @@
         "safe-to-delete PR media"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:tests",
       "enrichment": {
@@ -2237,7 +2237,7 @@
         "cloud-agent PR assets"
       ],
       "severity": "agent-assets",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:settings-tabs-fix",
       "enrichment": {
@@ -2258,71 +2258,6 @@
       }
     },
     {
-      "name": "portpowered/you-agent-factory",
-      "url": "https://github.com/portpowered/you-agent-factory",
-      "description": "Agent factory workflow engine for agents",
-      "created_at": "2026-04-29T08:45:00Z",
-      "stars": 15,
-      "reason": "Agent factory workflow engine for agents",
-      "matched": [
-        "agent-factory evidence"
-      ],
-      "severity": "agent-assets",
-      "first_seen": "2026-10-01T16:27:13Z",
-      "source": "repo-search",
-      "quality": "tree-images:1",
-      "enrichment": {
-        "size_kb": 252564,
-        "root_files": [
-          ".gitattributes",
-          ".github",
-          ".gitignore",
-          ".golangci.pkg.yml",
-          ".goreleaser.yml",
-          ".vscode",
-          "AGENTS.md",
-          "CLAUDE.md",
-          "LICENSE.md",
-          "Makefile",
-          "README.md",
-          "api",
-          "cmd",
-          "contracts",
-          "docs",
-          "examples",
-          "factory",
-          "go.mod",
-          "go.sum",
-          "hosted-ownership-claims.json"
-        ],
-        "non_boilerplate": [
-          "AGENTS.md",
-          "CLAUDE.md",
-          "Makefile",
-          "api",
-          "cmd",
-          "contracts",
-          "docs",
-          "examples",
-          "factory",
-          "go.mod",
-          "go.sum",
-          "hosted-ownership-claims.json",
-          "install.sh",
-          "internal",
-          "ownership-boundary-baseline.json"
-        ],
-        "image_files_root": [
-          "port-7438-task-board-final.png"
-        ],
-        "release_image_assets": 50,
-        "release_bytes": 5044503021,
-        "gitshot_release_assets": 0,
-        "commit_page_count": 5,
-        "admission": false
-      }
-    },
-    {
       "name": "meunomeebero/curriculol-pr-assets",
       "url": "https://github.com/meunomeebero/curriculol-pr-assets",
       "description": "Public PR screenshot assets for curriculol (private repo)",
@@ -2333,7 +2268,7 @@
         "PR screenshot assets for named repo"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-content:pr-86",
       "enrichment": {
@@ -2363,7 +2298,7 @@
         "pr-screenshots name"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-images:24",
       "enrichment": {
@@ -2438,7 +2373,7 @@
         "pr-screenshots name"
       ],
       "severity": "asset-dump",
-      "first_seen": "2026-10-01T16:27:13Z",
+      "first_seen": "2026-10-01T21:49:49Z",
       "source": "repo-search",
       "quality": "tree-images:5",
       "enrichment": {
@@ -2480,6 +2415,69 @@
         ],
         "release_image_assets": 1,
         "release_bytes": 198770,
+        "gitshot_release_assets": 0,
+        "commit_page_count": 5,
+        "admission": true
+      }
+    },
+    {
+      "name": "uncoalesced/Peridot",
+      "url": "https://github.com/uncoalesced/Peridot",
+      "description": "Peridot v1.6.0 [STABLE] | Sovereign AI Kernel. Offline, GPU accelerated Qwen framework: a 27B model fully on an 8GB GPU at 23.6 tok/s. Sandboxed skills & plugins, model tool use, opt in web search, MCP bridge for private data jobs from cloud agents, ZAT-SCS preemption, RAG. Zero data exfiltration. Engineered by uncoalesced.",
+      "created_at": "2026-02-06T12:00:55Z",
+      "stars": 7,
+      "reason": "Peridot v1.6.0 [STABLE] | Sovereign AI Kernel. Offline, GPU accelerated Qwen framework: a 27B model fully on an 8GB GPU at 23.6 tok/s. Sandboxed skills & plugins, model tool use, opt in web search, MCP bridge for private data jobs from cloud agents, ZAT-SCS preemption, RAG. Zero data exfiltration. Engineered by uncoalesced.",
+      "matched": [
+        "cloud-agent PR assets"
+      ],
+      "severity": "agent-assets",
+      "first_seen": "2026-10-01T21:49:49Z",
+      "source": "repo-search",
+      "quality": "tree-content:CHANGELOG.md,SECURITY.md,assets,benchmarking",
+      "enrichment": {
+        "size_kb": 59592,
+        "root_files": [
+          ".env.example",
+          ".github",
+          ".gitignore",
+          ".pre-commit-config.yaml",
+          ".secrets.baseline",
+          "CHANGELOG.md",
+          "LICENSE",
+          "README.md",
+          "SECURITY.md",
+          "assets",
+          "benchmarking",
+          "config.py",
+          "config",
+          "core.py",
+          "core_system",
+          "diagnostics",
+          "docs",
+          "install_wizard.py",
+          "launcher.py",
+          "main.py"
+        ],
+        "non_boilerplate": [
+          "CHANGELOG.md",
+          "SECURITY.md",
+          "assets",
+          "benchmarking",
+          "config.py",
+          "config",
+          "core.py",
+          "core_system",
+          "diagnostics",
+          "docs",
+          "install_wizard.py",
+          "launcher.py",
+          "main.py",
+          "pyproject.toml",
+          "requirements.txt"
+        ],
+        "image_files_root": [],
+        "release_image_assets": 0,
+        "release_bytes": 0,
         "gitshot_release_assets": 0,
         "commit_page_count": 5,
         "admission": true
